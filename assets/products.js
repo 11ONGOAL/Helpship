@@ -161,7 +161,7 @@ window.PRODUCTS = [
     "name": "Ceară de păr pentru fire rebele",
     "description": "Fixare naturală, finisaj neted & styling rapid fără aspect gras",
     "price": "5 Lei",
-    "stock": "0",
+    "stock": "300",
     "video": "https://i.imgur.com/i0WiC7B",
     "category": "Beauty",
     "image": "assets/images/ceara-de-par-pentru-fire-rebele.webp",
