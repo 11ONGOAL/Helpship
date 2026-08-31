@@ -742,17 +742,5 @@ window.PRODUCTS = [
     "category": "Casă și grădină",
     "image": "assets/images/fgghfg.png",
     "featured": false
-  },
-  {
-    "id": 65,
-    "slug": "ascutitor-manual-pentru-cutite",
-    "name": "Ascuțitor manual pentru cuțite",
-    "description": "Mâner ergonomic antiderapant, bază stabilă, uz casnic & profesional",
-    "price": "10 Lei",
-    "stock": "500",
-    "video": "https://i.imgur.com/O3rMrnq",
-    "category": "Casă și grădină",
-    "image": "assets/images/knife-sharpener.webp",
-    "featured": false
   }
 ];
