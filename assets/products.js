@@ -701,7 +701,7 @@ window.PRODUCTS = [
     "name": "Pătură Impermeabilă pentru Pat (120x80 cm)",
     "description": "Protecție Antilichide",
     "price": "14 Lei",
-    "stock": "0",
+    "stock": "1000",
     "video": "",
     "category": "Casă și grădină",
     "image": "assets/images/patura-impermeabila.webp",
