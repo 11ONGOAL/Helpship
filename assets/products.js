@@ -44,7 +44,7 @@ window.PRODUCTS = [
     "stock": "0",
     "video": "https://i.imgur.com/DOTw9TX",
     "category": "Beauty",
-    "image": "assets/images/crema-faciala-pdrn-colagen-50ml.webp",
+    "image": "assets/images/wertrt.png",
     "featured": false
   },
   {
