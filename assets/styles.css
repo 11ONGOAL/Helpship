@@ -391,54 +391,6 @@ a{color:inherit;text-decoration:none}
         height: 100px;
     }
 }
-/* =========================================================
-   GALERIE IMAGINI PRODUS
-   ========================================================= */
-
-.product-detail-image {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-}
-
-.product-detail-image > #mainProductImage {
-    width: 100%;
-    max-width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: contain;
-    background: #ffffff;
-    border-radius: 16px;
-    display: block;
-}
-
-.product-thumbnails {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 4px;
-}
-
-.product-thumbnails img {
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-    background: #ffffff;
-    border: 2px solid #e4e8ee;
-    border-radius: 10px;
-    cursor: pointer;
-    padding: 3px;
-    transition:
-        border-color 0.2s ease,
-        transform 0.2s ease,
-        box-shadow 0.2s ease;
-}
-
-.product-thumbnails img:hover {
-    border-color: #0e1d33;
-    transform: translateY(-2px);
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.12);
-}
-
 
 /* =========================================================
    STOC 0
@@ -480,4 +432,115 @@ a{color:inherit;text-decoration:none}
     .product-detail-copy {
         margin-top: 0;
     }
+}
+
+/* =========================================================
+   GALERIE PRODUS
+   ========================================================= */
+
+.product-gallery {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    width: 100%;
+    gap: 16px;
+}
+
+
+/* Imaginea mare */
+
+.product-main-image {
+    width: 100%;
+    height: 500px;
+    background: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-main-image img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    border-radius: 16px;
+}
+
+
+/* Thumbnail-uri */
+
+.product-thumbnails {
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 12px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.product-thumbnail {
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+    padding: 4px !important;
+    margin: 0 !important;
+
+    background: #ffffff;
+    border: 2px solid #d9dee7;
+    border-radius: 10px;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.product-thumbnail img {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    min-width: 0 !important;
+    max-width: 100% !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+    border-radius: 6px;
+}
+
+.product-thumbnail:hover {
+    border-color: #f47a28;
+}
+
+
+/* Mobil */
+
+@media (max-width: 768px) {
+
+    .product-main-image {
+        height: 360px;
+    }
+
+    .product-thumbnail {
+        width: 72px !important;
+        height: 72px !important;
+        min-width: 72px !important;
+        max-width: 72px !important;
+    }
+
 }
