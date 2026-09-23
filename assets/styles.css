@@ -484,96 +484,145 @@ a{color:inherit;text-decoration:none}
 
 
 /* =========================================================
-   THUMBNAILS - 2 COLOANE
+   STRONGFIX - GALERIE PRODUS
+   Aspect identic cu pagina Sticlă Portabilă
    ========================================================= */
 
-.product-thumbnails {
-    display: grid !important;
-
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-
-    gap: 12px;
-
-    width: 100%;
-
-    margin-top: 12px !important;
+.strongfix-gallery {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    height: auto !important;
     padding: 0 !important;
+    margin: 0 !important;
 }
 
 
-/* Card thumbnail */
+/* IMAGINE PRINCIPALĂ */
 
-.product-thumbnail {
+.strongfix-gallery .strongfix-main-image {
     width: 100% !important;
-    height: 120px !important;
-
-    min-width: 0 !important;
-    max-width: none !important;
-
-    padding: 8px !important;
-    margin: 0 !important;
+    height: 390px !important;
 
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
 
-    background: #ffffff;
+    background: #ffffff !important;
 
-    border: 1px solid #dce2ea;
-    border-radius: 12px;
+    border-radius: 14px !important;
+    overflow: hidden !important;
 
-    cursor: pointer;
-
-    overflow: hidden;
-
-    transition:
-        border-color 0.2s ease,
-        box-shadow 0.2s ease,
-        transform 0.2s ease;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 
-/* Imagine thumbnail */
-
-.product-thumbnail img {
+.strongfix-gallery .strongfix-main-image img {
     display: block !important;
 
     width: 100% !important;
     height: 100% !important;
 
-    min-width: 0 !important;
-    max-width: 100% !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
+    max-width: none !important;
+    max-height: none !important;
 
     object-fit: contain !important;
     object-position: center !important;
 
-    border-radius: 8px;
-}
+    padding: 0 !important;
+    margin: 0 !important;
 
-
-/* Hover */
-
-.product-thumbnail:hover {
-    border-color: #f47a28;
-
-    box-shadow:
-        0 5px 15px rgba(14, 29, 51, 0.08);
-
-    transform: translateY(-1px);
+    border: 0 !important;
+    border-radius: 0 !important;
 }
 
 
 /* =========================================================
-   COLOANA TEXT
+   THUMBNAILS SUB IMAGINEA PRINCIPALĂ
    ========================================================= */
 
-.product-detail-copy {
-    align-self: start;
+.strongfix-gallery .strongfix-thumbnails {
+    display: grid !important;
 
-    /* eliminăm mutările artificiale anterioare */
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+    width: 100% !important;
+
+    gap: 12px !important;
+
+    padding: 0 !important;
+    margin: 12px 0 0 0 !important;
+
+    position: static !important;
+}
+
+
+/* CARD THUMBNAIL */
+
+.strongfix-gallery .strongfix-thumbnail {
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    height: 115px !important;
+
+    min-width: 0 !important;
+    max-width: none !important;
+
+    padding: 6px !important;
+    margin: 0 !important;
+
+    background: #ffffff !important;
+
+    border: 1px solid #dce3eb !important;
+    border-radius: 12px !important;
+
+    overflow: hidden !important;
+
+    cursor: pointer !important;
+
+    box-sizing: border-box !important;
+}
+
+
+.strongfix-gallery .strongfix-thumbnail img {
+    display: block !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: 100% !important;
+    max-height: 100% !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    padding: 0 !important;
+    margin: 0 !important;
+
+    border: 0 !important;
+}
+
+
+.strongfix-gallery .strongfix-thumbnail:hover {
+    border-color: #f47a28 !important;
+}
+
+
+/* =========================================================
+   PRODUCT DETAIL
+   ========================================================= */
+
+.product-detail {
+    align-items: start !important;
+}
+
+
+.product-detail-copy {
+    align-self: start !important;
     margin-top: 0 !important;
 }
 
@@ -584,15 +633,11 @@ a{color:inherit;text-decoration:none}
 
 @media (max-width: 1000px) {
 
-    .product-detail {
-        gap: 30px;
+    .strongfix-gallery .strongfix-main-image {
+        height: 350px !important;
     }
 
-    .product-main-image {
-        height: 340px;
-    }
-
-    .product-thumbnail {
+    .strongfix-gallery .strongfix-thumbnail {
         height: 105px !important;
     }
 
@@ -605,46 +650,30 @@ a{color:inherit;text-decoration:none}
 
 @media (max-width: 768px) {
 
-    .product-detail {
-        grid-template-columns: 1fr;
-        gap: 30px;
+    .strongfix-gallery .strongfix-main-image {
+        height: 330px !important;
     }
 
-    .product-main-image {
-        height: 330px;
+    .strongfix-gallery .strongfix-thumbnails {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
     }
 
-    .product-main-image img {
-        padding: 12px;
-    }
-
-    .product-thumbnails {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 10px;
-    }
-
-    .product-thumbnail {
+    .strongfix-gallery .strongfix-thumbnail {
         height: 100px !important;
-    }
-
-    .product-detail-copy {
-        margin-top: 0 !important;
     }
 
 }
 
 
-/* =========================================================
-   TELEFOANE MICI
-   ========================================================= */
+/* TELEFOANE MICI */
 
 @media (max-width: 480px) {
 
-    .product-main-image {
-        height: 290px;
+    .strongfix-gallery .strongfix-main-image {
+        height: 290px !important;
     }
 
-    .product-thumbnail {
+    .strongfix-gallery .strongfix-thumbnail {
         height: 90px !important;
     }
 
