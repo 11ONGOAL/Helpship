@@ -20,7 +20,7 @@ window.PRODUCTS = [
     "stock": "1000 Buc.",
     "video": "",
     "category": "Casă și Grădină",
-    "image": "assets/images/Media1_dc57a0f9-af5b-4c76-913b-06cd214261d1.webp",
+    "image": "assets/images/ChatGPT Image 23 sept. 2026, 12_12_44.png",
     "featured": false
   },
   {
