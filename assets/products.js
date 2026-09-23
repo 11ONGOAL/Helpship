@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+      {
+    "id": 66,
+    "slug": "sticla-portabila-cu-bol-pentru-caini-roz",
+    "name": "Sticlă Portabilă cu Bol pentru Câini, Roz",
+    "description": "Sticlă portabilă pentru apă, cu bol integrat, ideală pentru hidratarea câinilor în timpul plimbărilor",
+    "price": "13.50 Lei",
+    "stock": "400 Buc.",
+    "video": "",
+    "category": "Animale",
+    "image": "assets/images/df97492c-dd35-4437-9dcb-7ce25e772a08.jpg",
+    "featured": false
+  },
     {
     "id": 65,
     "slug": "ultra-adeziv-anti-scurgeri-strongfix",
