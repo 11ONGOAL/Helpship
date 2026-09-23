@@ -72,30 +72,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 1,
-    "slug": "saruri-pentru-baie-picioare-10-plicuri",
-    "name": "Săruri pentru Baie Picioare 10 Plicuri",
-    "description": "Relaxare, detoxifiere și îngrijire picioare",
-    "price": "4 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/sJKRZw3",
-    "category": "Beauty",
-    "image": "assets/images/saruri-pentru-baie-picioare-10-plicuri.webp",
-    "featured": false
-  },
-  {
-    "id": 2,
-    "slug": "crema-marire-fund-75ml",
-    "name": "Cremă Mărire Fund 75ml",
-    "description": "Efect lifting & volum, cu cafea și chili",
-    "price": "6 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/Gcnf4c4",
-    "category": "Beauty",
-    "image": "assets/images/crema-marire-fund-75ml.webp",
-    "featured": false
-  },
-  {
     "id": 3,
     "slug": "plute-pescuit-led-cu-senzor-de-muscatura",
     "name": "Plute Pescuit LED cu Senzor de Mușcătură",
@@ -180,18 +156,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 10,
-    "slug": "crema-termoactiva-pentru-slabire-60ml",
-    "name": "Cremă Termoactivă pentru Slăbire 60ml",
-    "description": "Slim cream JAYSUING",
-    "price": "10Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/K27g1Ve",
-    "category": "Beauty",
-    "image": "assets/images/crema-termoactiva-pentru-slabire-60ml.webp",
-    "featured": false
-  },
-  {
     "id": 11,
     "slug": "gloss-pentru-volumul-buzelor-8ml",
     "name": "Gloss pentru Volumul Buzelor 8ml",
@@ -228,18 +192,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 14,
-    "slug": "ceara-de-par-pentru-fire-rebele",
-    "name": "Ceară de păr pentru fire rebele",
-    "description": "Fixare naturală, finisaj neted & styling rapid fără aspect gras",
-    "price": "5 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/i0WiC7B",
-    "category": "Beauty",
-    "image": "assets/images/ceara-de-par-pentru-fire-rebele.webp",
-    "featured": false
-  },
-  {
     "id": 15,
     "slug": "set-pentru-curatarea-urechilor",
     "name": "Set pentru curățarea urechilor",
@@ -249,18 +201,6 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/lqkPFmv",
     "category": "Gadgeturi și accesorii",
     "image": "assets/images/set-pentru-curatarea-urechilor.webp",
-    "featured": false
-  },
-  {
-    "id": 16,
-    "slug": "colanti-modelatori-cu-talie-inalta",
-    "name": "Colanți modelatori cu talie înaltă",
-    "description": "Shapewear pentru abdomen plat, talie subțire & efect push-up natural",
-    "price": "14 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/xwiyxIa",
-    "category": "Beauty",
-    "image": "assets/images/colanti-modelatori-cu-talie-inalta.webp",
     "featured": false
   },
   {
@@ -285,18 +225,6 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/UReBXvJ",
     "category": "Auto",
     "image": "assets/images/solutie-degresanta-pentru-geamuri-auto.webp",
-    "featured": false
-  },
-  {
-    "id": 19,
-    "slug": "masca-faciala-cu-colagen-pentru-noapte",
-    "name": "Mască facială cu colagen pentru noapte",
-    "description": "Hidratare intensivă & efect anti-rid, 75ml",
-    "price": "14 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/n2ow4ke",
-    "category": "Beauty",
-    "image": "assets/images/masca-faciala-cu-colagen-pentru-noapte.webp",
     "featured": false
   },
   {
@@ -576,30 +504,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 44,
-    "slug": "plasturi-abdomen-mymi-wonder-patch",
-    "name": "Plasturi abdomen MYMI wonder patch",
-    "description": "Patch pentru îngrijire corporală și beauty",
-    "price": "7 Lei",
-    "stock": "0",
-    "video": "https://imgur.com/ytVlpw8",
-    "category": "Beauty",
-    "image": "assets/images/plasturi-abdomen-mymi-wonder-patch.webp",
-    "featured": false
-  },
-  {
-    "id": 45,
-    "slug": "cartus-rezerva-pentru-robinet",
-    "name": "Cartuș rezervă pentru robinet",
-    "description": "Filtru compact pentru bucătărie",
-    "price": "8 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/JAuOr7i",
-    "category": "Casă și grădină",
-    "image": "assets/images/cartus-rezerva-pentru-robinet.webp",
-    "featured": false
-  },
-  {
     "id": 46,
     "slug": "plasturi-termici",
     "name": "Plasturi termici",
@@ -636,18 +540,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 49,
-    "slug": "masca-pentru-picioare",
-    "name": "Mască pentru picioare",
-    "description": "Tratament profesional hidratant și iluminator",
-    "price": "5 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/G5KfTR9",
-    "category": "Beauty",
-    "image": "assets/images/foot-mask.webp",
-    "featured": true
-  },
-  {
     "id": 51,
     "slug": "crema-pentru-marire-si-grosime",
     "name": "Cremă pentru mărire și grosime",
@@ -682,18 +574,6 @@ window.PRODUCTS = [
     "category": "Auto",
     "image": "assets/images/banda-led-ambientala-pentru-faruri-auto-2-buc.webp",
     "featured": false
-  },
-  {
-    "id": 55,
-    "slug": "suport-laptop-pliabil-si-reglabil-bax-100-buc",
-    "name": "Suport laptop pliabil și reglabil (bax 100 buc.)",
-    "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
-    "price": "25 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/FTi2oaC",
-    "category": "Gadgeturi și accesorii",
-    "image": "assets/images/laptop-stand.webp",
-    "featured": true
   },
   {
     "id": 56,
@@ -754,5 +634,125 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/crema-pentru-hemoroizi-20g.webp",
     "featured": false
+  },
+      {
+    "id": 1,
+    "slug": "saruri-pentru-baie-picioare-10-plicuri",
+    "name": "Săruri pentru Baie Picioare 10 Plicuri",
+    "description": "Relaxare, detoxifiere și îngrijire picioare",
+    "price": "4 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/sJKRZw3",
+    "category": "Beauty",
+    "image": "assets/images/saruri-pentru-baie-picioare-10-plicuri.webp",
+    "featured": false
+  },
+       {
+    "id": 2,
+    "slug": "crema-marire-fund-75ml",
+    "name": "Cremă Mărire Fund 75ml",
+    "description": "Efect lifting & volum, cu cafea și chili",
+    "price": "6 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/Gcnf4c4",
+    "category": "Beauty",
+    "image": "assets/images/crema-marire-fund-75ml.webp",
+    "featured": false
+  },
+      {
+    "id": 10,
+    "slug": "crema-termoactiva-pentru-slabire-60ml",
+    "name": "Cremă Termoactivă pentru Slăbire 60ml",
+    "description": "Slim cream JAYSUING",
+    "price": "10Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/K27g1Ve",
+    "category": "Beauty",
+    "image": "assets/images/crema-termoactiva-pentru-slabire-60ml.webp",
+    "featured": false
+  },
+      {
+    "id": 14,
+    "slug": "ceara-de-par-pentru-fire-rebele",
+    "name": "Ceară de păr pentru fire rebele",
+    "description": "Fixare naturală, finisaj neted & styling rapid fără aspect gras",
+    "price": "5 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/i0WiC7B",
+    "category": "Beauty",
+    "image": "assets/images/ceara-de-par-pentru-fire-rebele.webp",
+    "featured": false
+  },
+       {
+    "id": 16,
+    "slug": "colanti-modelatori-cu-talie-inalta",
+    "name": "Colanți modelatori cu talie înaltă",
+    "description": "Shapewear pentru abdomen plat, talie subțire & efect push-up natural",
+    "price": "14 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/xwiyxIa",
+    "category": "Beauty",
+    "image": "assets/images/colanti-modelatori-cu-talie-inalta.webp",
+    "featured": false
+  },
+      {
+    "id": 19,
+    "slug": "masca-faciala-cu-colagen-pentru-noapte",
+    "name": "Mască facială cu colagen pentru noapte",
+    "description": "Hidratare intensivă & efect anti-rid, 75ml",
+    "price": "14 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/n2ow4ke",
+    "category": "Beauty",
+    "image": "assets/images/masca-faciala-cu-colagen-pentru-noapte.webp",
+    "featured": false
+  },
+       {
+    "id": 44,
+    "slug": "plasturi-abdomen-mymi-wonder-patch",
+    "name": "Plasturi abdomen MYMI wonder patch",
+    "description": "Patch pentru îngrijire corporală și beauty",
+    "price": "7 Lei",
+    "stock": "0",
+    "video": "https://imgur.com/ytVlpw8",
+    "category": "Beauty",
+    "image": "assets/images/plasturi-abdomen-mymi-wonder-patch.webp",
+    "featured": false
+  },
+      {
+    "id": 45,
+    "slug": "cartus-rezerva-pentru-robinet",
+    "name": "Cartuș rezervă pentru robinet",
+    "description": "Filtru compact pentru bucătărie",
+    "price": "8 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/JAuOr7i",
+    "category": "Casă și grădină",
+    "image": "assets/images/cartus-rezerva-pentru-robinet.webp",
+    "featured": false
+  },
+      {
+    "id": 49,
+    "slug": "masca-pentru-picioare",
+    "name": "Mască pentru picioare",
+    "description": "Tratament profesional hidratant și iluminator",
+    "price": "5 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/G5KfTR9",
+    "category": "Beauty",
+    "image": "assets/images/foot-mask.webp",
+    "featured": true
+  },
+       {
+    "id": 55,
+    "slug": "suport-laptop-pliabil-si-reglabil-bax-100-buc",
+    "name": "Suport laptop pliabil și reglabil (bax 100 buc.)",
+    "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
+    "price": "25 Lei",
+    "stock": "0",
+    "video": "https://i.imgur.com/FTi2oaC",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/laptop-stand.webp",
+    "featured": true
   },
 ];
