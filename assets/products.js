@@ -1,5 +1,17 @@
 window.PRODUCTS = [
       {
+    "id": 67,
+    "slug": "tablete-nutritive-plante",
+    "name": "Tablete Nutritive pentru Plante (22 buc.)",
+    "description": "Tablete nutritive concepute pentru întreținerea ușoară a plantelor de interior și exterior.",
+    "price": "5 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Animale",
+    "image": "assets/images/Imagine ChatGPT 30 sept. 2026, 16_32_36-1.png",
+    "featured": false
+  },
+      {
     "id": 66,
     "slug": "sticla-portabila-cu-bol-pentru-caini-roz",
     "name": "Sticlă Portabilă cu Bol pentru Câini, Roz",
