@@ -7,7 +7,7 @@ window.PRODUCTS = [
     "price": "5 Lei",
     "stock": "500 Buc.",
     "video": "",
-    "category": "Animale",
+    "category": "Casă și Grădină",
     "image": "assets/images/Imagine ChatGPT 30 sept. 2026, 16_32_36-1.png",
     "featured": false
   },
