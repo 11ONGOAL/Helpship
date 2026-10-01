@@ -1,5 +1,17 @@
 window.PRODUCTS = [
       {
+    "id": 68,
+    "slug": "sac-spalare-incaltaminte",
+    "name": "Sac pentru Spălarea Încălțămintei",
+    "description": "Sac practic pentru spălarea pantofilor și adidașilor în mașina de spălat.",
+    "price": "15 Lei",
+    "stock": "300 Buc.",
+    "video": "",
+    "category": "Casă și Grădină",
+    "image": "assets/images/71UZYfIF-6L._AC_SL1500_.jpg",
+    "featured": false
+  },
+      {
     "id": 67,
     "slug": "tablete-nutritive-plante",
     "name": "Tablete Nutritive pentru Plante (22 buc.)",
