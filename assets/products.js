@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+       {
+    "id": 69,
+    "slug": "spray-dureri-dentare-gingivale",
+    "name": "Spray pentru Dureri Dentare și Gingivale, 20 ml",
+    "description": "Sprayul Warzn pentru dureri dentare și gingivale este conceput pentru a oferi confort oral",
+    "price": "9 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/zsewer.png",
+    "featured": false
+  },
       {
     "id": 68,
     "slug": "sac-spalare-incaltaminte",
