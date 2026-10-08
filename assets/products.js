@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+        {
+    "id": 70,
+    "slug": "aparat-masaj-anticelulitic",
+    "name": "Aparat de masaj anticelulitic 6 trepte",
+    "description": "Cu acest aparat electric de ventuze, veți ajuta tonifierea zonelor lăsate ale corpului",
+    "price": "45 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Dispozitiv de masaj verde cu uleiuri botanice.png",
+    "featured": false
+  },
        {
     "id": 69,
     "slug": "spray-dureri-dentare-gingivale",
