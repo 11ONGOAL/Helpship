@@ -1,5 +1,17 @@
 window.PRODUCTS = [
         {
+    "id": 71,
+    "slug": "centura-ems-abdomen-brate",
+    "name": "Centură EMS pentru Abdomen și Brațe cu Electrozi",
+    "description": "Set de electrostimulare musculară EMS pentru abdomen, brațe și coapse.",
+    "price": "27 Lei",
+    "stock": "300 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/imgi_11_1utxh004tg50d-tu.jpg",
+    "featured": false
+  },
+        {
     "id": 70,
     "slug": "aparat-masaj-anticelulitic",
     "name": "Aparat de masaj anticelulitic 6 trepte (2x10 ml ulei chinezesc pentru masaj)",
