@@ -826,5 +826,5 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/dfhgd.png",
     "featured": true
-  },
+  }
 ];
