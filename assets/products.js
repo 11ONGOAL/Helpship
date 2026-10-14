@@ -819,7 +819,7 @@ window.PRODUCTS = [
     "id": 72,
     "slug": "crema-fata-antirid-50g",
     "name": "Cremă de Față Antirid 50g",
-    "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
+    "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
     "price": "0 Lei",
     "stock": "0",
     "video": ,
