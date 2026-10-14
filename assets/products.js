@@ -817,7 +817,7 @@ window.PRODUCTS = [
   }, 
         {
     "id": 72,
-    "slug": "crema-fata-antirid-50g.html",
+    "slug": "crema-fata-antirid-50g",
     "name": "Cremă de Față Antirid 50g",
     "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
     "price": "0 Lei",
