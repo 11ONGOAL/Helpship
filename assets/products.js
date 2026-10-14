@@ -822,9 +822,9 @@ window.PRODUCTS = [
     "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
     "price": "0 Lei",
     "stock": "0",
-    "video": ,
+    "video": "",
     "category": "Beauty",
     "image": "assets/images/dfhgd.png",
-    "featured": true
+    "featured": false
   }
 ];
