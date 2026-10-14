@@ -38,6 +38,55 @@
     .product-specs { padding-left: 21px; }
     .product-specs li { margin-bottom: 8px; }
     @media (max-width: 400px) { .product-gallery .gallery-thumbnails { gap: 6px; } }
+    
+/* GALERIE - MINIATURI EGALE */
+
+.product-detail-image.product-gallery .gallery-thumbnails {
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    align-items: start !important;
+    margin-top: 15px !important;
+}
+
+.product-detail-image.product-gallery .gallery-thumbnails button {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1 !important;
+    min-height: 0 !important;
+    padding: 5px !important;
+    margin: 0 !important;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.product-detail-image.product-gallery .gallery-thumbnails button img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    object-fit: contain !important;
+    aspect-ratio: auto !important;
+    margin: 0 !important;
+}
+
+.product-detail-image.product-gallery .gallery-thumbnails button[aria-pressed="true"] {
+    border: 2px solid #c03942 !important;
+}
+
+@media (max-width: 480px) {
+    .product-detail-image.product-gallery .gallery-thumbnails {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    }
+}
+
   </style>
 </head>
 <body>
