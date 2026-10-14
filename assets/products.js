@@ -814,5 +814,17 @@ window.PRODUCTS = [
     "category": "Gadgeturi și accesorii",
     "image": "assets/images/laptop-stand.webp",
     "featured": true
+  }, 
+        {
+    "id": 72,
+    "slug": "crema-fata-antirid-50g.html",
+    "name": "Cremă de Față Antirid 50g",
+    "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": ,
+    "category": "Beauty",
+    "image": "assets/images/dfhgd.png",
+    "featured": true
   },
 ];
