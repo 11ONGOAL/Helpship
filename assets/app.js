@@ -38,6 +38,84 @@
     return `https://wa.me/40774663283?text=${encodeURIComponent(text)}`;
   }
 
+  // Prețurile din window.PRODUCTS sunt FĂRĂ TVA.
+  // Pentru toate produsele existente și adăugate ulterior, TVA = 21%.
+  const VAT_PERCENT = 21;
+  const moneyRO = new Intl.NumberFormat("ro-RO", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  function priceWithVat(netPrice) {
+    const input = String(netPrice ?? "");
+    const currencyAmount = /(\d+(?:[.,]\d+)?)\s*(?:Lei|RON)\b/gi;
+    const numberOnly = /^\s*(\d+(?:[.,]\d+)?)\s*$/;
+    const inclVat = (amount) => {
+      const netCents = Math.round(Number(amount.replace(",", ".")) * 100);
+      const grossCents = Math.round(netCents * (100 + VAT_PERCENT) / 100);
+      return `${moneyRO.format(grossCents / 100)} Lei`;
+    };
+    if (currencyAmount.test(input)) {
+      currencyAmount.lastIndex = 0;
+      return input.replace(currencyAmount, (_, amount) => inclVat(amount));
+    }
+    const match = input.match(numberOnly);
+    return match ? inclVat(match[1]) : "";
+  }
+
+  function updateDetailPriceVat() {
+    document.querySelectorAll(".detail-price").forEach(priceEl => {
+      const vat = priceWithVat(priceEl.textContent);
+      let vatEl = priceEl.parentElement.querySelector(".detail-vat");
+      if (!vatEl) {
+        vatEl = document.createElement("span");
+        vatEl.className = "detail-vat";
+        priceEl.insertAdjacentElement("afterend", vatEl);
+      }
+      vatEl.textContent = vat ? `(cu TVA ${VAT_PERCENT}%: ${vat})` : "";
+      vatEl.hidden = !vat;
+    });
+  }
+
+  function updateRelatedPrices() {
+    document.querySelectorAll(".related-card strong").forEach(priceEl => {
+      const vat = priceWithVat(priceEl.textContent);
+      if (!vat) return;
+      let vatEl = priceEl.nextElementSibling;
+      if (!vatEl || !vatEl.classList.contains("related-vat")) {
+        vatEl = document.createElement("small");
+        vatEl.className = "related-vat";
+        priceEl.insertAdjacentElement("afterend", vatEl);
+      }
+      vatEl.textContent = `(cu TVA ${VAT_PERCENT}%: ${vat})`;
+    });
+  }
+
+  // Aceeași informație de contact pentru paginile noi create după acest șablon.
+  function ensureContactShortcuts() {
+    const navWrap = document.querySelector(".site-header .nav-wrap");
+    if (navWrap && !navWrap.querySelector(".header-phone")) {
+      const phone = document.createElement("a");
+      phone.className = "header-phone";
+      phone.href = "tel:+40774663283";
+      phone.setAttribute("aria-label", "Sună la 0774 663 283");
+      phone.innerHTML = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7l.5 3a2 2 0 0 1-.6 1.7l-1.7 1.7a16 16 0 0 0 6 6l1.7-1.7a2 2 0 0 1 1.7-.6l3 .5a2 2 0 0 1 1.3 2.6Z"/></svg><span>0774 663 283</span>`;
+      const brand = navWrap.querySelector(".brand");
+      if (brand) brand.insertAdjacentElement("afterend", phone);
+    }
+    if (!document.querySelector(".floating-whatsapp")) {
+      const anchor = document.createElement("a");
+      anchor.className = "floating-whatsapp";
+      anchor.href = "https://wa.me/40774663283";
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.setAttribute("aria-label", "Contact pe WhatsApp: 0774 663 283");
+      const img = document.createElement("img");
+      img.src = `${grid ? "" : "../"}assets/images/whatsapp-logo.svg`;
+      img.alt = "";
+      img.width = 34;
+      img.height = 34;
+      anchor.appendChild(img);
+      document.body.appendChild(anchor);
+    }
+  }
+
   function productCard(product) {
     const out = isOutOfStock(product.stock);
     const detailUrl = `products/${product.slug}.html`;
@@ -52,7 +130,7 @@
           <h3><a href="${detailUrl}">${safe(product.name)}</a></h3>
           <p class="product-description">${safe(product.description)}</p>
           <div class="product-meta">
-            <span class="product-price">${safe(product.price)}</span>
+            <div class="price-stack"><span class="product-price">${safe(product.price)}</span>${priceWithVat(product.price) ? `<span class="price-with-vat">(cu TVA ${VAT_PERCENT}%: ${safe(priceWithVat(product.price))})</span>` : ""}</div>
             <span class="product-stock">Stoc exact: ${safe(product.stock)}</span>
           </div>
           <div class="card-actions">
@@ -100,6 +178,7 @@
         <h2>${safe(product.name)}</h2>
         <p>${safe(product.description)}</p>
         <div class="modal-price">${safe(product.price)}</div>
+        ${priceWithVat(product.price) ? `<div class="modal-vat">(cu TVA ${VAT_PERCENT}%: ${safe(priceWithVat(product.price))})</div>` : ""}
         <div class="modal-stock">Stoc exact: ${safe(product.stock)} · ${out ? "Momentan indisponibil" : "Cantitate disponibilă la Alexa Imports"}</div>
         <div class="modal-actions">
           <a class="btn btn-primary" href="${whatsappLink(product)}" target="_blank" rel="noopener">Solicită oferta finală</a>
@@ -163,5 +242,8 @@
 
   const year = document.querySelector("#year");
   if (year) year.textContent = new Date().getFullYear();
+  ensureContactShortcuts();
+  updateDetailPriceVat();
+  updateRelatedPrices();
   render();
 })();

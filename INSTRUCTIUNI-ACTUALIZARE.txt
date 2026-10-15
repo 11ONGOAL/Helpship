@@ -1,0 +1,19 @@
+ACTUALIZARE SITE ALEXA IMPORTS — 15.10.2026
+
+CE S-A MODIFICAT:
+1. În antetul paginii principale și al fiecărui produs: telefon 0774 663 283 (apel prin tel:+40774663283).
+2. Buton WhatsApp flotant cu pictogramă grafică SVG, în loc de "WA", pe toate paginile. Deschide WhatsApp către 0774 663 283.
+3. Prețul mare/primar rămâne FĂRĂ TVA. Sub el: (cu TVA 21%: valoarea calculată, cu două zecimale).
+4. TVA afișat în lista de produse, în paginile individuale și în zona de produse similare, dacă există.
+5. Pentru produsele noi, completează prețul FĂRĂ TVA în assets/products.js, câmpul "price", de exemplu "27 Lei". assets/app.js calculează și afișează automat prețul cu TVA 21% în catalog. Paginile de produs noi care includ ../assets/app.js își afișează automat prețul cu TVA sub elementul cu clasa "detail-price".
+
+PUBLICARE:
+- Dezarhivează arhiva; index.html, assets/, products/ și celelalte fișiere trebuie să fie în directorul-rădăcină al site-ului/repository-ului.
+- Înlocuiește fișierele din proiect cu versiunile din această arhivă, păstrând structura folderelor.
+- Publică modificările prin fluxul de deploy folosit pentru site (de exemplu, GitHub + Vercel).
+- Dacă încă vezi versiunea veche, verifică deploy-ul și golește memoria cache a browserului (Ctrl+F5).
+
+Formula: preț cu TVA = preț fără TVA × 1,21, rotunjit la două zecimale.
+Exemplu: 27,00 Lei -> 32,67 Lei.
+
+NU a fost schimbată valoarea prețurilor de bază și a stocurilor.

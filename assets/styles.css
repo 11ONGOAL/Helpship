@@ -678,3 +678,26 @@ a{color:inherit;text-decoration:none}
     }
 
 }
+
+/* Contact rapid în antet, păstrând navigația existentă */
+.header-phone{display:inline-flex;align-items:center;gap:8px;flex-shrink:0;color:#fff;font-size:16px;font-weight:850;white-space:nowrap;transition:color .2s}
+.header-phone:hover{color:#ff9a5a}
+.header-phone svg{width:21px;height:21px;color:var(--orange);flex-shrink:0}
+.floating-whatsapp img{display:block;width:34px;height:34px;object-fit:contain}
+.floating-whatsapp:focus-visible,.header-phone:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+
+/* Prețurile din catalog și detalii: sus fără TVA, jos cu TVA 21% */
+.price-stack{display:flex;flex-direction:column;align-items:flex-start;gap:0;min-width:0;flex:1}
+.price-with-vat,.detail-vat,.modal-vat{display:block;color:var(--muted);font-size:12px;font-weight:500;line-height:1.45;margin-top:2px;overflow-wrap:anywhere}
+.detail-vat{font-size:13px;margin-top:5px}
+.modal-vat{font-size:14px;margin-top:1px;margin-bottom:10px}
+.product-meta{align-items:center}
+.product-stock{flex-shrink:0}
+@media(max-width:1150px){.nav-wrap{gap:16px}.main-nav{gap:17px}.header-phone{font-size:14px}}
+@media(max-width:780px){.nav-wrap{gap:10px}.header-phone{font-size:13px}.header-phone svg{width:18px;height:18px}}
+@media(max-width:520px){.brand img{width:142px;height:48px}.nav-wrap{gap:7px}.header-phone{font-size:12px;gap:5px}.header-phone svg{width:16px;height:16px}.menu-toggle{padding:5px}}
+@media(max-width:370px){.brand img{width:118px;height:43px}.header-phone{font-size:11px;gap:4px}}
+
+/* Produse similare: preț net + preț cu TVA calculat identic cu lista principală */
+.related-card strong{padding-bottom:2px}
+.related-card .related-vat{display:block;padding:0 15px 16px;font-size:11px;line-height:1.5;color:var(--muted);overflow-wrap:anywhere}
