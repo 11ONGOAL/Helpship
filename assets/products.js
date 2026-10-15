@@ -887,4 +887,16 @@ window.PRODUCTS = [
     "image": "assets/images/rty.png",
     "featured": false
   },
+         {
+    "id": 78,
+    "slug": "fond-de-ten-cu-colagen-si-buretel-inclus.html",
+    "name": "Fond de Ten cu Colagen și Burețel Inclus",
+    "description": "Obține un ten cu aspect neted, uniform și natural!",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/jkgh.jpg",
+    "featured": false
+  },
 ];
