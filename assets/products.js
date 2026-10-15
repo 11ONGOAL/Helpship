@@ -878,7 +878,7 @@ window.PRODUCTS = [
         {
     "id": 77,
     "slug": "irigator-bucal-electric-3-moduri-200ml-4-capete-negru",
-    "name": "Șampon Colorant 3 în1 Negru 500/100 ml",
+    "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
     "description": "Bucură-te de o igienă orală completă cu irigatorul bucal electric.",
     "price": "0 Lei",
     "stock": "0",
