@@ -863,4 +863,16 @@ window.PRODUCTS = [
     "image": "assets/images/61a7Mq4l5RL._AC_SL1280_.jpg",
     "featured": false
   },
+        {
+    "id": 76,
+    "slug": "sampon-colorant-3-in-1-negru-500-100-ml",
+    "name": "Șampon Colorant 3 în1 Negru 500/100 ml",
+    "description": "O soluție practică pentru colorarea părului acasă, fără proceduri complicate.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-889781.webp",
+    "featured": false
+  },
 ];
