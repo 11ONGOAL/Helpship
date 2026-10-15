@@ -15,7 +15,7 @@
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
 
-/* Galerie izolată de regulile generale ale site-ului */
+/* Galerie identică în structură cu paginile HelpShip: imagine principală + miniaturi într-un singur rând. */
 .product-detail-image.product-gallery {
   display: block !important;
   width: 100%;
@@ -25,9 +25,9 @@
   display: block !important;
   box-sizing: border-box;
   width: 100%;
+  padding: 12px;
   background: #f6f7fa;
   border-radius: 14px;
-  padding: 12px;
   overflow: hidden;
 }
 .product-gallery #mainProductImage {
@@ -37,11 +37,9 @@
   height: auto !important;
   aspect-ratio: 1 / 1;
   object-fit: contain !important;
-  border-radius: 9px;
   background: #fff;
+  border-radius: 9px;
 }
-
-/* Miniaturi: 4 vizibile pe desktop, restul prin derulare orizontală */
 .product-detail-image.product-gallery .gallery-thumbnails {
   display: grid !important;
   grid-template-columns: none !important;
@@ -99,16 +97,12 @@
   outline: 3px solid #163868;
   outline-offset: 2px;
 }
-.detail-stock.out-of-stock { color: #b4232c; }
-.product-specs { padding-left: 21px; }
-.product-specs li { margin-bottom: 8px; }
-
+.detail-stock.out-of-stock { color: #ae2b34; }
 @media (max-width: 650px) {
   .product-detail-image.product-gallery .gallery-thumbnails {
     grid-auto-columns: calc((100% - 16px) / 3) !important;
     gap: 8px !important;
   }
-}
 </style>
 </head>
 <body>
