@@ -884,7 +884,7 @@ window.PRODUCTS = [
     "stock": "0",
     "video": "",
     "category": "Beauty",
-    "image": "rty.png",
+    "image": "assets/images/rty.png",
     "featured": false
   },
 ];
