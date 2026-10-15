@@ -9,49 +9,104 @@
 <title>Ceas Bărbați Argintiu cu Pietre Strălucitoare | Alexa Imports</title>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
-<style>
-/* Pagina produs - alinierea continutului */
+<style>/* Aliniere cu partea superioară a imaginii principale */
 @media (min-width: 900px) {
   .product-detail { align-items: flex-start !important; }
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
-/* Izolam galeria de regulile CSS generale ale site-ului */
-.product-detail-image.product-gallery { display: block !important; min-width: 0; width: 100%; }
+
+/* Galerie izolată de regulile generale ale site-ului */
+.product-detail-image.product-gallery {
+  display: block !important;
+  width: 100%;
+  min-width: 0;
+}
 .product-gallery .gallery-frame {
-  display: block !important; width: 100%; box-sizing: border-box;
-  background: #f6f7fa; border-radius: 14px; padding: 12px; overflow: hidden;
+  display: block !important;
+  box-sizing: border-box;
+  width: 100%;
+  background: #f6f7fa;
+  border-radius: 14px;
+  padding: 12px;
+  overflow: hidden;
 }
 .product-gallery #mainProductImage {
-  display: block !important; width: 100% !important; max-width: 100% !important;
-  height: auto !important; aspect-ratio: 1 / 1; object-fit: contain;
-  border-radius: 9px; background: #fff;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: contain !important;
+  border-radius: 9px;
+  background: #fff;
 }
+
+/* Miniaturi: 4 vizibile pe desktop, restul prin derulare orizontală */
 .product-detail-image.product-gallery .gallery-thumbnails {
-  display: grid !important; grid-template-columns: repeat(6, minmax(0, 1fr)) !important;
-  gap: 9px !important; align-items: start !important; margin-top: 14px !important;
+  display: grid !important;
+  grid-template-columns: none !important;
+  grid-template-rows: minmax(0, 1fr) !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: calc((100% - 30px) / 4) !important;
+  gap: 10px !important;
+  align-items: start !important;
+  width: 100%;
+  min-width: 0;
+  margin-top: 15px !important;
+  padding: 0 0 7px;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
 }
 .product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb {
-  display: flex !important; align-items: center !important; justify-content: center !important;
-  box-sizing: border-box !important; width: 100% !important; height: auto !important;
-  min-height: 0 !important; min-width: 0 !important; aspect-ratio: 1 / 1 !important;
-  padding: 4px !important; margin: 0 !important; background: #fff;
-  border: 1px solid #d8dfe8; border-radius: 9px; cursor: pointer; overflow: hidden;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  margin: 0 !important;
+  padding: 5px !important;
+  background: #fff;
+  border: 1px solid #d8dfe8;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  scroll-snap-align: start;
 }
 .product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb img {
-  display: block !important; width: 100% !important; height: 100% !important;
-  min-height: 0 !important; max-height: none !important;
-  object-fit: contain !important; margin: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important;
 }
-.product-detail-image.product-gallery .gallery-thumb[aria-pressed="true"] {
-  border: 2px solid #c03942 !important; padding: 3px !important;
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb[aria-pressed="true"] {
+  border: 2px solid #c03942 !important;
+  padding: 4px !important;
 }
-.product-gallery .gallery-thumb:focus-visible { outline: 3px solid #163868; outline-offset: 2px; }
+.product-gallery .gallery-thumb:focus-visible {
+  outline: 3px solid #163868;
+  outline-offset: 2px;
+}
 .detail-stock.out-of-stock { color: #b4232c; }
 .product-specs { padding-left: 21px; }
 .product-specs li { margin-bottom: 8px; }
+
 @media (max-width: 650px) {
   .product-detail-image.product-gallery .gallery-thumbnails {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 8px !important;
+    grid-auto-columns: calc((100% - 16px) / 3) !important;
+    gap: 8px !important;
   }
 }
 </style>
@@ -84,9 +139,9 @@
 </nav>
 <section class="product-detail">
 <div class="product-detail-image product-gallery">
-<div class="gallery-frame"><img alt="Ceas bărbătesc argintiu cu pietre decorative, vedere de produs pe fundal negru" fetchpriority="high" id="mainProductImage" src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg"/></div>
+<div class="gallery-frame"><img alt="Ceas argintiu cu pietre decorative, purtat la încheietură" fetchpriority="high" id="mainProductImage" src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg"/></div>
 <!-- GALERIE IMAGINI: pentru o fotografie nouă, copiază un bloc button de mai jos și schimbă src și alt. -->
-<div aria-label="Galerie foto ceas bărbătesc argintiu cu pietre strălucitoare" class="gallery-thumbnails" id="galleryThumbnails"><button aria-label="Imaginea 1 din 6" aria-pressed="true" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas bărbătesc argintiu cu pietre decorative, vedere de produs pe fundal negru" loading="eager" src="../assets/images/06b3c151-8b34-4642-8a2d-22bd0834e212.jpg"/></button><button aria-label="Imaginea 2 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas bărbătesc argintiu cu pietre strălucitoare, purtat la încheietură" loading="lazy" src="../assets/images/63bc1343-8f44-4bc8-b1ce-674b664785bb.jpg"/></button><button aria-label="Imaginea 3 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu cu pietre decorative, alături de brățară asortată în fotografia de prezentare" loading="lazy" src="../assets/images/a3ae9803-8206-4e2f-a9ab-bd78124f6a91.jpg"/></button><button aria-label="Imaginea 4 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu Iced Out pe încheietură, fotografie cu lumini urbane" loading="lazy" src="../assets/images/d153e715-0975-4908-9d71-bd98f6ddec5b.jpg"/></button><button aria-label="Imaginea 5 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Detaliu al cadranului alb cu cifre romane și pietre strălucitoare" loading="lazy" src="../assets/images/fgjh.png"/></button></div>
+<div aria-label="Galerie foto ceas bărbătesc argintiu cu pietre strălucitoare" class="gallery-thumbnails" id="galleryThumbnails"><button aria-label="Imaginea 1 din 6" aria-pressed="true" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu cu pietre decorative, purtat la încheietură" loading="eager" src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg"/></button><button aria-label="Imaginea 2 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu cu pietre strălucitoare, prezentare pe fundal negru" loading="lazy" src="../assets/images/06b3c151-8b34-4642-8a2d-22bd0834e212.jpg"/></button><button aria-label="Imaginea 3 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu și brățară decorativă, pe fundal negru" loading="lazy" src="../assets/images/63bc1343-8f44-4bc8-b1ce-674b664785bb.jpg"/></button><button aria-label="Imaginea 4 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Ceas argintiu pe încheietură, fotografie urbană" loading="lazy" src="../assets/images/a3ae9803-8206-4e2f-a9ab-bd78124f6a91.jpg"/></button><button aria-label="Imaginea 5 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Detaliu cadran ceas argintiu cu cifre romane" loading="lazy" src="../assets/images/d153e715-0975-4908-9d71-bd98f6ddec5b.jpg"/></button><button aria-label="Imaginea 6 din 6" aria-pressed="false" class="gallery-thumb" onclick="selectProductImage(this)" type="button"><img alt="Dimensiuni ceas: diametru 4,3 cm, brățară 21 cm, lățime 1,6 cm" loading="lazy" src="../assets/images/fgjh.png"/></button></div>
 </div>
 <div class="product-detail-copy">
 <span class="detail-category">Accesorii</span>
@@ -114,7 +169,6 @@
 <a href="https://wa.me/40774663283?text=Bun%C4%83%20ziua%2C%20doresc%20detalii%20%C8%99i%20ofert%C4%83%20pentru%20produsul%3A%20Ceas%20B%C4%83rba%C8%9Bi%20Argintiu%20cu%20Pietre%20Str%C4%83lucitoare." rel="noopener noreferrer" target="_blank">Discută pe WhatsApp →</a>
 </div>
 </section>
-
 </div>
 </main>
 <section class="product-contact-strip">
