@@ -889,7 +889,7 @@ window.PRODUCTS = [
   },
          {
     "id": 78,
-    "slug": "fond-de-ten-cu-colagen-si-buretel-inclus.html",
+    "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
     "name": "Fond de Ten cu Colagen și Burețel Inclus",
     "description": "Obține un ten cu aspect neted, uniform și natural!",
     "price": "0 Lei",
