@@ -872,7 +872,7 @@ window.PRODUCTS = [
     "stock": "0",
     "video": "",
     "category": "Beauty",
-    "image": "sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-889781.webp",
+    "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-724707.webp",
     "featured": false
   },
         {
