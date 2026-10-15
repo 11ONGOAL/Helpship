@@ -850,7 +850,7 @@ window.PRODUCTS = [
     "category": "Gadgeturi și accesorii",
     "image": "assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg",
     "featured": false
-  }
+  },
          {
     "id": 75,
     "slug": "benzi-pentru-albirea-dintilor-28-bucati",
