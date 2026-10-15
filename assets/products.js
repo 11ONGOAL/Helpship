@@ -838,5 +838,17 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/vcbcvb.png",
     "featured": false
+  },
+        {
+    "id": 74,
+    "slug": "ceas-barbati-argintiu-cu-pietre-stralucitoare",
+    "name": "Ceas Bărbați Argintiu cu Pietre Strălucitoare",
+    "description": " Adaugă un plus de stil și eleganță ținutelor tale cu acest ceas bărbătesc Luxury Diamond",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg",
+    "featured": false
   }
 ];
