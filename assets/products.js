@@ -827,4 +827,16 @@ window.PRODUCTS = [
     "image": "assets/images/dfhgd.png",
     "featured": false
   }
+        {
+    "id": 72,
+    "slug": "crema-pentru-bataturi-si-calcaie-20g",
+    "name": "Cremă pentru Bătături și Călcâie 20g",
+    "description": "Bee Venom Corn Callus Remover Cream – cremă pentru îngrijirea bătăturilor, calozităților și zonelor cu piele îngroșată",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/vcbcvb.png",
+    "featured": false
+  }
 ];
