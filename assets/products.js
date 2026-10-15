@@ -826,7 +826,7 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/dfhgd.png",
     "featured": false
-  }
+  },
         {
     "id": 73,
     "slug": "crema-pentru-bataturi-si-calcaie-20g",
