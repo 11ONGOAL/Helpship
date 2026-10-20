@@ -907,7 +907,7 @@ window.PRODUCTS = [
     "price": "0 Lei",
     "stock": "0",
     "video": "",
-    "category": "Beauty",
+    "category": "Gadgeturi și accesorii",
     "image": "assets/images/dfghf.png",
     "featured": false
   },
