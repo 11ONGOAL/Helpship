@@ -899,4 +899,16 @@ window.PRODUCTS = [
     "image": "assets/images/crema-pentru-varice.webp",
     "featured": false
   },
+        {
+    "id": 79,
+    "slug": "set-pedichiura-profesionala-unghii-incarnate",
+    "name": "Set Pedichiură Profesională pentru Unghii Încarnate Set 3 piese ",
+    "description": "Set pedichiură profesională pentru unghii încarnate, 3 piese: clește, instrument pentru curățare și pilă",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/dfghf.png",
+    "featured": false
+  },
 ];
