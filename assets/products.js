@@ -911,4 +911,16 @@ window.PRODUCTS = [
     "image": "assets/images/dfghf.png",
     "featured": false
   },
+         {
+    "id": 80,
+    "slug": "spray-pentru-varice-30ml",
+    "name": "Spray pentru Varice 30ml ",
+    "description": "SOL LORA Varicose Veins Spray 30 ml – spray pentru îngrijirea zilnică a pielii picioarelor cu vene vizibile.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/sol-lora-spray-varice-30ml-fundal-alb.webp",
+    "featured": false
+  },
 ];
