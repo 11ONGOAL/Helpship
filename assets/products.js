@@ -923,4 +923,16 @@ window.PRODUCTS = [
     "image": "assets/images/sol-lora-spray-varice-30ml-fundal-alb.webp",
     "featured": false
   },
+        {
+    "id": 81,
+    "slug": "pusculita-electronica-hello-kitty",
+    "name": "Pușculiță Electronică Hello Kitty",
+    "description": "Transformă economisirea banilor într-o activitate distractivă cu pușculița electronică Hello Kitty!",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/pusculita-electronica-hello-kitty-in-cutie.webp",
+    "featured": false
+  },
 ];
