@@ -552,18 +552,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 47,
-    "slug": "rola-manuala-pentru-indepartarea-scamelor",
-    "name": "Rolă manuală pentru îndepărtarea scamelor",
-    "description": "Lint Remover pentru haine și textile",
-    "price": "7 Lei",
-    "stock": "1000",
-    "video": "https://i.imgur.com/XlBta6h",
-    "category": "Casă și grădină",
-    "image": "assets/images/lint-remover.webp",
-    "featured": true
-  },
-  {
     "id": 48,
     "slug": "ser-pentru-potenta-si-vitalitate-masculina-flacon-30-ml",
     "name": "Ser pentru Potență și Vitalitate Masculină, Flacon 30 ml",
@@ -597,42 +585,6 @@ window.PRODUCTS = [
     "video": "https://imgur.com/E7vSBDe",
     "category": "Beauty",
     "image": "assets/images/spray-pentru-intarzierea-ejacularii.webp",
-    "featured": false
-  },
-  {
-    "id": 54,
-    "slug": "banda-led-ambientala-pentru-faruri-auto-2-buc",
-    "name": "Bandă LED ambientală pentru faruri auto (2 buc.)",
-    "description": "Iluminare interior, montaj ușor, design modern",
-    "price": "25 Lei",
-    "stock": "500",
-    "video": "https://i.imgur.com/V3JDeKx",
-    "category": "Auto",
-    "image": "assets/images/banda-led-ambientala-pentru-faruri-auto-2-buc.webp",
-    "featured": false
-  },
-  {
-    "id": 56,
-    "slug": "panou-decorativ-autoadeziv-tip-caramida-3d",
-    "name": "Panou decorativ autoadeziv tip cărămidă 3D",
-    "description": "Pentru perete, design realist, ușor de montat, decor interior",
-    "price": "10 Lei",
-    "stock": "990",
-    "video": "https://i.imgur.com/9fMVYeI",
-    "category": "Casă și grădină",
-    "image": "assets/images/panou-decorativ-autoadeziv-tip-caramida-3d.webp",
-    "featured": false
-  },
-  {
-    "id": 57,
-    "slug": "tableta-magica-de-desen-cu-iluminare-led-pentru-copii",
-    "name": "Tabletă Magică de desen cu iluminare LED pentru copii",
-    "description": "Tablă de scris reutilizabilă, jucărie educativă creativ",
-    "price": "30 Lei",
-    "stock": "300",
-    "video": "https://i.imgur.com/7e5WFIH",
-    "category": "Jocuri",
-    "image": "assets/images/tableta-magica-de-desen-cu-iluminare-led-pentru-copii.webp",
     "featured": false
   },
   {
@@ -744,18 +696,6 @@ window.PRODUCTS = [
     "featured": false
   },
       {
-    "id": 45,
-    "slug": "cartus-rezerva-pentru-robinet",
-    "name": "Cartuș rezervă pentru robinet",
-    "description": "Filtru compact pentru bucătărie",
-    "price": "8 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/JAuOr7i",
-    "category": "Casă și grădină",
-    "image": "assets/images/cartus-rezerva-pentru-robinet.webp",
-    "featured": false
-  },
-      {
     "id": 49,
     "slug": "masca-pentru-picioare",
     "name": "Mască pentru picioare",
@@ -767,18 +707,6 @@ window.PRODUCTS = [
     "image": "assets/images/foot-mask.webp",
     "featured": true
   },
-       {
-    "id": 55,
-    "slug": "suport-laptop-pliabil-si-reglabil-bax-100-buc",
-    "name": "Suport laptop pliabil și reglabil (bax 100 buc.)",
-    "description": "Plastic de înaltă calitate, design ergonomic, bază anti-alunecare, ideal pentru birou și călătorii.",
-    "price": "25 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/FTi2oaC",
-    "category": "Gadgeturi și accesorii",
-    "image": "assets/images/laptop-stand.webp",
-    "featured": true
-  }, 
         {
     "id": 72,
     "slug": "crema-fata-antirid-50g",
