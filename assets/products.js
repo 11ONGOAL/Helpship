@@ -203,6 +203,18 @@ window.PRODUCTS = [
     "image": "assets/images/wertrt.png",
     "featured": false
   },
+            {
+    "id": 34,
+    "slug": "plasturi-pentru-slabit-slim-patch",
+    "name": "Plasturi pentru slăbit Slim Patch",
+    "description": "Arde grăsimile și subțiează talia fără efort",
+    "price": "9 Lei (30 Buc. set)",
+    "stock": "4000",
+    "video": "https://imgur.com/umnAn08",
+    "category": "Beauty",
+    "image": "assets/images/slim-patch.webp",
+    "featured": true
+  },
   {
     "id": 6,
     "slug": "plasturi-pentru-varice-12-bucati",
@@ -465,18 +477,6 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/9MNqdKA",
     "category": "Casă și grădină",
     "image": "assets/images/banda-nano-adeziva-fixare.webp",
-    "featured": true
-  },
-  {
-    "id": 34,
-    "slug": "plasturi-pentru-slabit-slim-patch",
-    "name": "Plasturi pentru slăbit Slim Patch",
-    "description": "Arde grăsimile și subțiează talia fără efort",
-    "price": "3 Lei (10 Buc. set),       8 Lei (30 Buc. set)",
-    "stock": "1000",
-    "video": "https://imgur.com/umnAn08",
-    "category": "Beauty",
-    "image": "assets/images/slim-patch.webp",
     "featured": true
   },
   {
