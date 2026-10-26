@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+         {
+    "id": 59,
+    "slug": "crema-pentru-varice",
+    "name": "Cremă pentru varice",
+    "description": "Tratament natural pentru circulație și reducerea venelor varicoase",
+    "price": "7 Lei",
+    "stock": "2000",
+    "video": "https://i.imgur.com/hq6AXvW",
+    "category": "Beauty",
+    "image": "assets/images/crema-pentru-varice.webp",
+    "featured": false
+  },
         {
     "id": 71,
     "slug": "centura-ems-abdomen-brate",
@@ -814,18 +826,6 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/corector-postura-reglabil-pentru-umeri-si-spate.webp",
     "featured": true
-  },
-        {
-    "id": 59,
-    "slug": "crema-pentru-varice",
-    "name": "Cremă pentru varice",
-    "description": "Tratament natural pentru circulație și reducerea venelor varicoase",
-    "price": "7 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/hq6AXvW",
-    "category": "Beauty",
-    "image": "assets/images/crema-pentru-varice.webp",
-    "featured": false
   },
         {
     "id": 79,
