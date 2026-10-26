@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+   {
+    "id": 72,
+    "slug": "crema-fata-antirid-50g",
+    "name": "Cremă de Față Antirid 50g",
+    "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
+    "price": "19 Lei",
+    "stock": "300",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Imagine ChatGPT 26 oct. 2026, 14_49_21-1 (1).png",
+    "featured": false
+  },
               {
     "id": 74,
     "slug": "ceas-barbati-argintiu-cu-pietre-stralucitoare",
@@ -766,18 +778,6 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/foot-mask.webp",
     "featured": true
-  },
-        {
-    "id": 72,
-    "slug": "crema-fata-antirid-50g",
-    "name": "Cremă de Față Antirid 50g",
-    "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
-    "price": "0 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/dfhgd.png",
-    "featured": false
   },
         {
     "id": 73,
