@@ -1,5 +1,17 @@
 window.PRODUCTS = [
           {
+    "id": 75,
+    "slug": "benzi-pentru-albirea-dintilor-28-bucati",
+    "name": "Benzi pentru Albirea Dinților 28 Bucăți",
+    "description": "Un zâmbet mai alb și mai strălucitor, chiar la tine acasă!",
+    "price": "8 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/aacce3d570fd31735087c9e40dd01248.png_720x720q80.png_.webp",
+    "featured": false
+  },
+          {
     "id": 80,
     "slug": "spray-pentru-varice-30ml",
     "name": "Spray pentru Varice 30ml ",
@@ -765,18 +777,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Gadgeturi și accesorii",
     "image": "assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg",
-    "featured": false
-  },
-         {
-    "id": 75,
-    "slug": "benzi-pentru-albirea-dintilor-28-bucati",
-    "name": "Benzi pentru Albirea Dinților 28 Bucăți",
-    "description": "Un zâmbet mai alb și mai strălucitor, chiar la tine acasă!",
-    "price": "0 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/61a7Mq4l5RL._AC_SL1280_.jpg",
     "featured": false
   },
         {
