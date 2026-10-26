@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+           {
+    "id": 77,
+    "slug": "irigator-bucal-electric-3-moduri-200ml-4-capete-negru",
+    "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
+    "description": "Bucură-te de o igienă orală completă cu irigatorul bucal electric.",
+    "price": "40 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/dfh (1).png",
+    "featured": false
+  },
           {
     "id": 75,
     "slug": "benzi-pentru-albirea-dintilor-28-bucati",
@@ -789,18 +801,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Beauty",
     "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-724707.webp",
-    "featured": false
-  },
-        {
-    "id": 77,
-    "slug": "irigator-bucal-electric-3-moduri-200ml-4-capete-negru",
-    "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
-    "description": "Bucură-te de o igienă orală completă cu irigatorul bucal electric.",
-    "price": "0 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/rty.png",
     "featured": false
   },
          {
