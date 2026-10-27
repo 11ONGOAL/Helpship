@@ -178,18 +178,31 @@
         <h1>Șampon Colorant 5 în 1 Negru Natural 250/500 ml</h1>
         <p class="detail-description">O soluție practică pentru colorarea părului acasă, fără proceduri complicate. Formula 5 în 1 combină colorarea, îngrijirea și hidratarea într-un singur produs, oferind părului un aspect natural, strălucitor și revitalizat.</p>
 
-        <div class="variant-picker" aria-labelledby="variant-heading">
-          <h2 id="variant-heading">Alege varianta de culoare</h2>
-          <div class="variant-options" role="group" aria-label="Nuanță șampon">
-            <button type="button" class="variant-option" data-variant="negru" aria-pressed="true" onclick="setVariant('negru')">
-              <span class="variant-swatch black" aria-hidden="true"></span><span><strong>Negru natural – 250 ml</strong></span>
-            </button>
-            <button type="button" class="variant-option" data-variant="negru" aria-pressed="false" onclick="setVariant('negru')">
-              <span class="variant-swatch black" aria-hidden="true"></span><span><strong>Negru natural – 500 ml</strong></span>
-            </button>
-          </div>
-          <p class="variant-status" id="selectedVariant" aria-live="polite">Varianta selectată: <strong>Negru natural – 250 ml</strong></p>
-        </div>
+       
+<div class="variant-picker" aria-labelledby="variant-heading">
+  <h2 id="variant-heading">Alege cantitatea</h2>
+
+  <div class="variant-options" role="group" aria-label="Cantitate șampon">
+    <button type="button" class="variant-option"
+      data-variant="250"
+      aria-pressed="true"
+      onclick="setVariant('250')">
+      <span><strong>250 ml</strong></span>
+    </button>
+
+    <button type="button" class="variant-option"
+      data-variant="500"
+      aria-pressed="false"
+      onclick="setVariant('500')">
+      <span><strong>500 ml</strong></span>
+    </button>
+  </div>
+
+  <p class="variant-status" id="selectedVariant" aria-live="polite">
+    Cantitatea selectată: <strong>250 ml</strong>
+  </p>
+</div>
+
 
         <div class="detail-price-row">
           <div><span class="detail-label">Preț B2B fără TVA</span><strong class="detail-price">25,00 Lei</strong></div>
