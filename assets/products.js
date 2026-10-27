@@ -1,5 +1,17 @@
 window.PRODUCTS = [
        {
+    "id": 78,
+    "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
+    "name": "Fond de Ten cu Colagen și Burețel Inclus",
+    "description": "Obține un ten cu aspect neted, uniform și natural!",
+    "price": "18 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Fond de ten (1).png",
+    "featured": false
+  },
+       {
     "id": 82,
     "slug": "colanti-termici-vatuiti-cu-interior-moale-pentru-dama",
     "name": "Colanti Termici Vătuiți cu Interior Moale pentru Damă tip Ciorapi cu Căptuseala Groasă",
@@ -827,18 +839,7 @@ window.PRODUCTS = [
     "image": "assets/images/vcbcvb.png",
     "featured": false
   },
-         {
-    "id": 78,
-    "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
-    "name": "Fond de Ten cu Colagen și Burețel Inclus",
-    "description": "Obține un ten cu aspect neted, uniform și natural!",
-    "price": "0 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/jkgh.jpg",
-    "featured": false
-  },
+         
         {
     "id": 5,
     "slug": "crema-contur-ochi-cu-venin-de-albine-20g",
