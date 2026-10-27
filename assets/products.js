@@ -1,5 +1,17 @@
 window.PRODUCTS = [
        {
+    "id": 82,
+    "slug": "colanti-termici-vatuiti-cu-interior-moale-pentru-dama",
+    "name": "Colanti Termici Vătuiți cu Interior Moale pentru Damă tip Ciorapi cu Căptuseala Groasă",
+    "description": "Colanți termici de damă, ideali pentru sezonul rece, concepuți pentru a oferi confort, căldură și un aspect elegant.",
+    "price": "17 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/colanti-termici-lifestyle.webp,
+    "featured": false
+  },
+       {
   "id": 74,
   "slug": "sampon-colorant-3-in-1-saten-castaniu-si-negru-500-ml",
   "name": "Șampon Colorant 5 în 1 Negru Natural de 250/500 ml",
