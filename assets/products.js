@@ -2,7 +2,7 @@ window.PRODUCTS = [
        {
   "id": 74,
   "slug": "sampon-colorant-3-in-1-saten-castaniu-si-negru-500-ml",
-  "name": "Șampon Colorant 5 în 1 Șaten Castaniu și Negru 250/500 ml",
+  "name": "Șampon Colorant 5 în 1 Negru Natural de 250/500 ml",
   "description": "O soluție practică pentru colorarea părului acasă, fără proceduri complicate",
   "price": "De la 25 Lei",
   "stock": "500 Buc. / variantă",
