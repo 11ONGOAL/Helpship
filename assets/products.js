@@ -8,7 +8,7 @@ window.PRODUCTS = [
     "stock": "1000",
     "video": "",
     "category": "Casă și grădină",
-    "image": "assets/images/colanti-termici-lifestyle.webp,
+    "image": "assets/images/colanti-termici-lifestyle.webp",
     "featured": false
   },
        {
