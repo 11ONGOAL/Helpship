@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#0e1d33" name="theme-color"/>
-<meta name="description" content="Șampon Colorant 3 în 1, disponibil în două variante distincte: Șaten castaniu 250 ml și Negru 500 ml. Formulă pentru colorarea și îngrijirea părului."/>
+<meta name="description" content="Șampon Colorant 5 în 1, Negru natural, disponibil în cantități de 250 ml și 500 ml. Formulă pentru colorarea și îngrijirea părului."/>
 <title>Șampon Colorant 5 în 1 Negru de 250/500 ml | Alexa Imports</title>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
@@ -13,7 +13,7 @@
   .product-detail { align-items: flex-start !important; }
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
-/* Galerie editabilă manual: adaugi <button> în galeria culorii potrivite. */
+/* Galerie editabilă manual: adaugi <button> în galeria cantității potrivite. */
 .product-detail-image.product-gallery {
   display: block !important;
   min-height: 0 !important;
@@ -59,17 +59,15 @@
   object-fit: cover;
 }
 .detail-stock.out-of-stock { color: #ae2b34; }
+.detail-vat { display: block; margin-top: 6px; font-size: .8rem; }
 
-/* Selector de variante */
+/* Selector de cantitate */
 .variant-picker { margin: 22px 0; padding: 18px; border: 1px solid #d9dfe6; border-radius: 12px; background: #fafbfc; }
 .variant-picker h2 { margin: 0 0 6px; font-size: 1.1rem; }
 .variant-picker p { margin: 0 0 14px; }
 .variant-options { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 12px; }
 .variant-option { display:flex; align-items:center; gap:10px; padding: 12px; border: 2px solid #d9dfe6; border-radius: 10px; background:#fff; cursor:pointer; text-align:left; color:inherit; font:inherit; }
 .variant-option[aria-pressed="true"] { border-color:#9e2935; background:#fff5f5; }
-.variant-swatch { width:30px; height:30px; border-radius:50%; flex:none; border:2px solid #ddd; }
-.variant-swatch.brown { background:#603625; }
-.variant-swatch.black { background:#161616; }
 .variant-option small { display:block; font-size:.8rem; opacity:.7; margin-top:3px; }
 .variant-status { margin-top:12px; font-size:.92rem; }
 @media (max-width:540px) {
@@ -121,26 +119,26 @@
     <section class="product-detail">
       <div class="product-detail-image product-gallery">
         <!-- Imaginea mare se schimbă automat la apăsarea miniaturilor. NU adăuga fotografii aici. -->
-        <img id="mainProductImage" class="gallery-main" alt="Șampon colorant 3 în 1 – șaten castaniu" />
+        <img id="mainProductImage" class="gallery-main" alt="Șampon colorant 5 în 1 – negru natural, 250 ml" />
 
-        <!-- ===================== IMAGINI ȘATEN CASTANIU ===================== -->
-        <!-- AICI ADAUGI MANUAL FOTOGRAFIILE PENTRU ȘATEN CASTANIU -->
-        <div class="gallery-thumbnails" data-variant-gallery="saten" aria-label="Imagini Șaten castaniu">
+        <!-- ===================== IMAGINI NEGRU NATURAL – 250 ML ===================== -->
+        <!-- AICI ADAUGI MANUAL FOTOGRAFIILE PENTRU AMBALAJUL DE 250 ML -->
+        <div class="gallery-thumbnails" data-variant-gallery="250" aria-label="Imagini șampon negru natural, 250 ml">
           <!-- Imaginea 1: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Șaten castaniu, imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
-            <img src="../assets/images/Sampon 2 (1).png" alt="Șampon colorant șaten castaniu – imaginea 1" loading="lazy" />
+          <button type="button" aria-label="Negru natural 250 ml, imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
+            <img src="../assets/images/Sampon 2 (1).png" alt="Șampon colorant negru natural 250 ml – imaginea 1" loading="lazy" />
           </button>
           <!-- Imaginea 2: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Șaten castaniu, imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/Sampon 2 (2).png" alt="Șampon colorant șaten castaniu – imaginea 2" loading="lazy" />
+          <button type="button" aria-label="Negru natural 250 ml, imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
+            <img src="../assets/images/Sampon 2 (2).png" alt="Șampon colorant negru natural 250 ml – imaginea 2" loading="lazy" />
           </button>
           <!-- Imaginea 3: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Șaten castaniu, imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/Sampon 2 (3).png" alt="Șampon colorant șaten castaniu – imaginea 3" loading="lazy" />
+          <button type="button" aria-label="Negru natural 250 ml, imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
+            <img src="../assets/images/Sampon 2 (3).png" alt="Șampon colorant negru natural 250 ml – imaginea 3" loading="lazy" />
           </button>
           <!-- Imaginea 4: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Șaten castaniu, imaginea 4" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/Sampon 2 (5).png" alt="Șampon colorant șaten castaniu – imaginea 4" loading="lazy" />
+          <button type="button" aria-label="Negru natural 250 ml, imaginea 4" aria-pressed="false" onclick="selectProductImage(this)">
+            <img src="../assets/images/Sampon 2 (5).png" alt="Șampon colorant negru natural 250 ml – imaginea 4" loading="lazy" />
           </button>
           <!-- IMAGINI NOI: lipește aici încă un bloc <button>...</button> înainte de închiderea </div>.
           Exemplu:
@@ -150,20 +148,20 @@
           -->
         </div>
 
-        <!-- ===================== IMAGINI NEGRU ===================== -->
-        <!-- AICI ADAUGI MANUAL FOTOGRAFIILE PENTRU NEGRU -->
-        <div class="gallery-thumbnails" data-variant-gallery="negru" aria-label="Imagini Negru" hidden>
+        <!-- ===================== IMAGINI NEGRU NATURAL – 500 ML ===================== -->
+        <!-- AICI ADAUGI MANUAL FOTOGRAFIILE PENTRU AMBALAJUL DE 500 ML -->
+        <div class="gallery-thumbnails" data-variant-gallery="500" aria-label="Imagini șampon negru natural, 500 ml" hidden>
           <!-- Imaginea 1: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Negru, imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
-            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_48-1.png" alt="Șampon colorant negru – imaginea 1" loading="lazy" />
+          <button type="button" aria-label="Negru natural 500 ml, imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
+            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_48-1.png" alt="Șampon colorant negru natural 500 ml – imaginea 1" loading="lazy" />
           </button>
           <!-- Imaginea 2: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Negru, imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_49-2.png" alt="Șampon colorant negru – imaginea 2" loading="lazy" />
+          <button type="button" aria-label="Negru natural 500 ml, imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
+            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_49-2.png" alt="Șampon colorant negru natural 500 ml – imaginea 2" loading="lazy" />
           </button>
           <!-- Imaginea 3: schimbă doar valoarea src cu numele fotografiei tale -->
-          <button type="button" aria-label="Negru, imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_50-3.png" alt="Șampon colorant negru – imaginea 3" loading="lazy" />
+          <button type="button" aria-label="Negru natural 500 ml, imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
+            <img src="../assets/images/Imagine ChatGPT 26 oct. 2026, 15_42_50-3.png" alt="Șampon colorant negru natural 500 ml – imaginea 3" loading="lazy" />
           </button>
           <!-- IMAGINI NOI: lipește aici încă un bloc <button>...</button> înainte de închiderea </div>.
           Exemplu:
@@ -199,13 +197,13 @@
   </div>
 
   <p class="variant-status" id="selectedVariant" aria-live="polite">
-    Cantitatea selectată: <strong>250 ml</strong>
+    Cantitate aleasă: <strong>250 ml</strong>
   </p>
 </div>
 
 
         <div class="detail-price-row">
-          <div><span class="detail-label">Preț B2B fără TVA</span><strong class="detail-price">25,00 Lei</strong></div>
+          <div><span class="detail-label">Preț B2B fără TVA</span><strong class="detail-price">25,00 Lei</strong><small class="detail-vat">(cu TVA 21%: 30,25 Lei)</small></div>
           <div><span class="detail-label">Stoc declarat</span><strong class="detail-stock">500 buc.</strong></div>
         </div>
         <div class="detail-actions">
@@ -223,11 +221,11 @@
       <div>
         <p class="eyebrow dark">DETALII PRODUS</p>
         <p>O soluție practică pentru colorarea părului acasă, fără proceduri complicate. Formula 5 în 1 combină colorarea, îngrijirea și hidratarea într-un singur produs, oferind părului un aspect natural, strălucitor și revitalizat.</p>
-        <p>Două variante de culoare</p>
-        <p><strong>Negru natural (250 ml/ 500ml)</strong> sunt cantități diferite ale șamponului colorant. Alege cantitatea din selectorul de mai sus, înainte de a solicita informații pe WhatsApp.</p>
+        <p>Două cantități disponibile</p>
+        <p><strong>Negru natural (250 ml și 500 ml)</strong> este disponibil în două cantități, cu ambalaje și imagini diferite. Alege cantitatea dorită din selectorul de mai sus înainte de a solicita informații pe WhatsApp.</p>
         <p><strong>Caracteristici produs:</strong></p>
           <p>Tip produs: șampon colorant</p>
-          <p>Nuanțe disponibile ca variante: Negru natural</p>
+          <p>Culoare disponibilă: Negru natural</p>
           <p>Cantitate declarată: 250 ml și 500 ml pentru negru natural</p>
           <p>Formulă: 5 în 1</p>
           <p>Utilizare: colorare și îngrijire</p>
@@ -301,12 +299,11 @@
 /*
   Imaginile NU sunt trecute în JavaScript.
   Adaugă manual <button><img src="../assets/images/nume.jpg"></button>
-  în grupul HTML data-variant-gallery="saten" sau "negru".
+  în grupul HTML data-variant-gallery="250" sau "500".
 */
-const labels = { saten: 'Șaten castaniu', negru: 'Negru' };
 const variantDetails = {
-  saten: { size: 250, price: 25, stock: 500 },
-  negru: { size: 500, price: 38, stock: 500 }
+  '250': { size: 250, color: 'Negru natural', price: 25, stock: 500 },
+  '500': { size: 500, color: 'Negru natural', price: 38, stock: 500 }
 };
 
 function selectProductImage(button) {
@@ -323,29 +320,44 @@ function selectProductImage(button) {
 }
 
 function setVariant(variant) {
-  if (!Object.prototype.hasOwnProperty.call(labels, variant)) return;
+  // Valorile variantei sunt cantitățile, nu culorile.
+  if (!Object.prototype.hasOwnProperty.call(variantDetails, variant)) return;
 
+  const product = variantDetails[variant];
+
+  // Arată numai imaginile ambalajului ales (250 ml sau 500 ml).
   document.querySelectorAll('[data-variant-gallery]').forEach(group => {
     group.hidden = group.dataset.variantGallery !== variant;
   });
+
+  // Evidențiază butonul cantității selectate.
   document.querySelectorAll('.variant-option').forEach(button => {
     button.setAttribute('aria-pressed', String(button.dataset.variant === variant));
   });
-  const product = variantDetails[variant];
-  document.getElementById('selectedVariant').textContent = 'Varianta selectată: ' + labels[variant] + ' – ' + product.size + ' ml';
-  document.querySelector('.detail-price').textContent = product.price.toFixed(2).replace('.', ',') + ' Lei';
-  const vatEl = document.querySelector('.detail-price').parentElement.querySelector('.detail-vat');
+
+  // Afișează cantitatea aleasă în dreptul selectorului.
+  document.getElementById('selectedVariant').innerHTML =
+    'Cantitate aleasă: <strong>' + product.size + ' ml</strong>';
+
+  // Actualizează prețul, TVA-ul și stocul.
+  document.querySelector('.detail-price').textContent =
+    product.price.toFixed(2).replace('.', ',') + ' Lei';
+  const vatEl = document.querySelector('.detail-vat');
   if (vatEl) {
-    vatEl.textContent = '(cu TVA 21%: ' + (product.price * 1.21).toFixed(2).replace('.', ',') + ' Lei)';
-    vatEl.hidden = false;
+    vatEl.textContent = '(cu TVA 21%: ' +
+      (product.price * 1.21).toFixed(2).replace('.', ',') + ' Lei)';
   }
   document.querySelector('.detail-stock').textContent = product.stock + ' buc.';
 
+  // Pune în imaginea principală fotografia selectată din galeria corectă.
   const group = document.querySelector('[data-variant-gallery="' + variant + '"]');
-  const selected = group && (group.querySelector('button[aria-pressed="true"]') || group.querySelector('button'));
+  const selected = group &&
+    (group.querySelector('button[aria-pressed="true"]') || group.querySelector('button'));
   if (selected) selectProductImage(selected);
 
-  const message = 'Bună ziua, doresc detalii despre produsul: Șampon Colorant 3 în 1 ' + labels[variant] + ', ' + product.size + ' ml.';
+  // WhatsApp primește cantitatea corespunzătoare selecției.
+  const message = 'Bună ziua, doresc detalii despre produsul: Șampon Colorant 5 în 1 ' +
+    product.color + ', ' + product.size + ' ml.';
   const url = 'https://wa.me/40774663283?text=' + encodeURIComponent(message);
   ['whatsappMain', 'whatsappInfo', 'whatsappStrip', 'whatsappFooter'].forEach(id => {
     const link = document.getElementById(id);
@@ -353,7 +365,8 @@ function setVariant(variant) {
   });
 }
 
-setVariant('saten');
+// Selecția inițială este 250 ml, inclusiv galeria și prețul.
+setVariant('250');
 </script>
 
 </body>
