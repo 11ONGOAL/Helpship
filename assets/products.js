@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+        {
+    "id": 83,
+    "slug": "cerc-hula-hoop-fitness-smart-reglabil",
+    "name": "Cerc Hula Hoop Fitness Smart Reglabil",
+    "description": "Este un accesoriu practic pentru antrenamentele de fitness.",
+    "price": "20 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/cerc-hula-hoop-smart-3.webp",
+    "featured": false
+  },
        {
     "id": 78,
     "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
