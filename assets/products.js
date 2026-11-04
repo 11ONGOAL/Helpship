@@ -320,7 +320,7 @@ window.PRODUCTS = [
     "stock": "1000",
     "video": "https://i.imgur.com/erCt6Ss",
     "category": "Auto",
-    "image": "assets/images/catalyst-cleaner.webp",
+    "image": "assets/images/Boost up (1).png",
     "featured": true
   },
   {
