@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+   {
+    "id": 88,
+    "slug": "spray-pentru-dureri-dentare-si-gingivale-20ml",
+    "name": "Spray pentru Dureri Dentare și Gingivale, 20 ml",
+    "description": "Spray oral South Moon Toothache Sprays, 20 ml, cu aplicator alungit pentru direcționarea soluției către zona dorită din cavitatea bucală.",
+    "price": "10 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/spray-dureri-dentare-1.png",
+    "featured": false
+  },
              {
     "id": 87,
     "slug": "set-30-plasturi-anti-stres",
