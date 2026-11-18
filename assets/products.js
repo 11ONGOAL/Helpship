@@ -1,5 +1,17 @@
 window.PRODUCTS = [
         {
+    "id": 84,
+    "slug": "Set_2_Talonete_din_Gel_pentru_Picioare",
+    "name": "Set 2 Talonete din Gel pentru Picioare",
+    "description": "Set de 2 talonete din gel pentru antepicior, cu design perforat și fixare flexibilă pe degete, pentru un plus de confort în timpul mersului.",
+    "price": "8.50 Lei",
+    "stock": "1150",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/talonete-gel-1.png",
+    "featured": false
+  },
+        {
     "id": 83,
     "slug": "cerc-hula-hoop-fitness-smart-reglabil",
     "name": "Cerc Hula Hoop Fitness Smart Reglabil",
