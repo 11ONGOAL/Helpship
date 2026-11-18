@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+             {
+    "id": 87,
+    "slug": "set-30-plasturi-anti-stres",
+    "name": "Set de 30 plasturi anti-stres",
+    "description": "Setul Stress Down Patches, format din 30 de plasturi antistres este un produs destinat persoanelor interesate de relaxare, confort personal și integrarea unor accesorii wellness în rutina zilnică.",
+    "price": "7 Lei",
+    "stock": "2000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/plasturi-anti-stres-3.png",
+    "featured": false
+  },
             {
     "id": 86,
     "slug": "curatator-legume-fructe-otel-inoxidabil",
