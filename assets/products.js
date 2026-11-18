@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+           {
+    "id": 85,
+    "slug": "set-24-betisoare-adezive-curatarea-urechilor",
+    "name": "Set 24 Bețișoare Adezive pentru Curățarea Urechilor",
+    "description": "Set de 24 bețișoare adezive pentru curățarea zonei exterioare a urechilor, cu vârf transparent și suprafață aderentă pentru colectarea impurităților superficiale.",
+    "price": "8 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/betisoare-adezive-urechi-1.png",
+    "featured": false
+  },
           {
     "id": 81,
     "slug": "pusculita-electronica-hello-kitty",
