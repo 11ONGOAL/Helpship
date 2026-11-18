@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+          {
+    "id": 81,
+    "slug": "pusculita-electronica-hello-kitty",
+    "name": "Pușculiță Electronică Hello Kitty",
+    "description": "Transformă economisirea banilor într-o activitate distractivă cu pușculița electronică Hello Kitty!",
+    "price": "39 Lei",
+    "stock": "400",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/pusculita-electronica-hello-kitty-in-cutie.webp",
+    "featured": false
+  },
         {
     "id": 84,
     "slug": "Set_2_Talonete_din_Gel_pentru_Picioare",
@@ -898,18 +910,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Gadgeturi și accesorii",
     "image": "assets/images/dfghf.png",
-    "featured": false
-  },
-        {
-    "id": 81,
-    "slug": "pusculita-electronica-hello-kitty",
-    "name": "Pușculiță Electronică Hello Kitty",
-    "description": "Transformă economisirea banilor într-o activitate distractivă cu pușculița electronică Hello Kitty!",
-    "price": "0 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Jocuri",
-    "image": "assets/images/pusculita-electronica-hello-kitty-in-cutie.webp",
     "featured": false
   },
 ];
