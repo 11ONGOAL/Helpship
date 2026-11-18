@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+            {
+    "id": 86,
+    "slug": "curatator-legume-fructe-otel-inoxidabil",
+    "name": "Curățător de Legume și Fructe cu Lamă din Oțel Inoxidabil",
+    "description": "Curățător manual pentru legume și fructe, cu lamă din oțel inoxidabil 420 și mâner din lemn, conceput pentru decojirea controlată a ingredientelor.",
+    "price": "5 Lei",
+    "stock": "2000",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/curatator-legume-fructe-1.png",
+    "featured": false
+  },
            {
     "id": 85,
     "slug": "set-24-betisoare-adezive-curatarea-urechilor",
