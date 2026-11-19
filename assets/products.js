@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+         {
+    "id": 98,
+    "slug": "masca-de-par-cu-colagen-si-esenta-de-maca",
+    "name": "Mască de Păr cu Colagen și Esență de Maca ",
+    "description": "Mască de păr KORMESIC cu colagen și esență de maca, 500 ml, pentru hidratarea și îngrijirea părului uscat și deteriorat.",
+    "price": "22 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/masca-de-par-cu-colagen-si-esenta-de-maca-2.png",
+    "featured": false
+  },
         {
     "id": 97,
     "slug": "gel-exfoliant-facial-cu-enzime-de-portocale-100g",
