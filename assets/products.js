@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+    {
+    "id": 91,
+    "slug": "sutien-de-dama-cu-corector-de-postura-bej-si-negru",
+    "name": "Sutien de Damă cu Corector de Postură Bej și Negru",
+    "description": "Sutienul de damă cu corector de postură integrat combină susținerea bustului cu un design special pentru spate, bretele late și bandă reglabilă. Disponibil în bej și negru.",
+    "price": "15 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/sutien-corector-postura-bej-negru-1.jpg",
+    "featured": false
+  },
    {
     "id": 90,
     "slug": "folie-adeziva-transparenta-protectie-mobilier-suprafete",
