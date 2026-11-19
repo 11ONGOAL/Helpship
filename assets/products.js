@@ -8,7 +8,7 @@ window.PRODUCTS = [
     "stock": "1850",
     "video": "",
     "category": "Casă și grădină",
-    "image": "assets/images/fatete-dentare-2.png",
+    "image": "assets/images/banda-adeziva-etansare-baie-bucatarie-1.png",
     "featured": false
   },
             {
