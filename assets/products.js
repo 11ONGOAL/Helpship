@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+   {
+    "id": 103,
+    "slug": "spray-vopsea-retusare-pereti-jue-fish-60ml",
+    "name": "Spray Vopsea pentru Retușarea Pereților",
+    "description": "Spray-ul pentru retușarea pereților Jue Fish Wall Spray, 60 ml</strong>, este un produs destinat îmbunătățirii aspectului suprafețelor interioare prin acoperirea vizuală a petelor, urmelor de murdărie și a imperfecțiunilor superficiale.",
+    "price": "12 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/spray-vopsea-retusare-pereti-jue-fish-1.png",
+    "featured": false
+  },
              {
     "id": 102,
     "slug": "banda-adeziva-etansare-baie-bucatarie",
