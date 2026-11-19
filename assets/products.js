@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+             {
+    "id": 102,
+    "slug": "banda-adeziva-etansare-baie-bucatarie",
+    "name": "Bandă Adezivă de Etanșare pentru Baie și Bucătărie",
+    "description": "Bandă autoadezivă impermeabilă pentru etanșarea rosturilor din baie și bucătărie, 3,6 metri lungime și 4 cm lățime, culoare albă.",
+    "price": "9 Lei",
+    "stock": "1850",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/fatete-dentare-2.png",
+    "featured": false
+  },
             {
     "id": 101,
     "slug": "fatete-dentare",
