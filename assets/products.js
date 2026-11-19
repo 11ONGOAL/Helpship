@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+      {
+    "id": 94,
+    "slug": "balsam-stick-pentru-zona-ochilor-9g",
+    "name": "Balsam Stick pentru Zona Ochilor 9 g",
+    "description": "Balsam stick pentru hidratarea și îngrijirea zonei ochilor, cu extract de colagen, 9 g.",
+    "price": "12,50 Lei",
+    "stock": "2000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/balsam-stick-zona-ochilor-9g-2.png",
+    "featured": false
+  },
     {
     "id": 93,
     "slug": "set-blocuri-constructie-tip-minecraft-copii",
