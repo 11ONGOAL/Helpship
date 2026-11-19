@@ -1,5 +1,17 @@
 window.PRODUCTS = [
     {
+    "id": 92,
+    "slug": "mop-multifunctional-cap-rotund-microfibra",
+    "name": "Mop Multifuncțional cu Cap Rotund din Microfibră",
+    "description": "Mop multifuncțional cu cap rotund din microfibră și mâner metalic lung, conceput pentru curățarea pardoselilor și a suprafețelor compatibile.",
+    "price": "9 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/mop-multifunctional-cap-rotund-microfibra-3.png",
+    "featured": false
+  },
+    {
     "id": 91,
     "slug": "sutien-de-dama-cu-corector-de-postura-bej-si-negru",
     "name": "Sutien de Damă cu Corector de Postură Bej și Negru",
