@@ -1,5 +1,17 @@
 window.PRODUCTS = [
    {
+    "id": 90,
+    "slug": "folie-adeziva-transparenta-protectie-mobilier-suprafete",
+    "name": "Folie Adezivă Transparentă pentru Protecția Mobilierului și Suprafețelor",
+    "description": "Folie adezivă transparentă de 40 x 100 cm pentru protecția mobilierului și a suprafețelor netede, în format practic, decupabil la dimensiunea dorită.",
+    "price": "5,50 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/folie-adeziva-transparenta-2.png",
+    "featured": false
+  },
+   {
     "id": 89,
     "slug": "set-4-folii-protectie-aragaz",
     "name": "Set 4 Folii de Protecție Reutilizabile pentru Aragaz pe Gaz",
