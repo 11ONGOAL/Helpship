@@ -1,5 +1,17 @@
 window.PRODUCTS = [
         {
+    "id": 96,
+    "slug": "papusa-zburatoare-roz",
+    "name": "Păpușă Zburătoare, Roz",
+    "description": "Păpușă interactivă roz Flying Fairy Princess cu aripi rotative și mecanism de zbor, pentru joacă recreativă.",
+    "price": "15 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/papusa-zburatoare-roz-1.jpg",
+    "featured": false
+  },
+        {
     "id": 95,
     "slug": "ser-curatare-pete-lacrimale-caini-pisici-30ml",
     "name": "Ser pentru Curățarea Petelor Lacrimale la Câini și Pisici 30 ml",
