@@ -86,20 +86,6 @@
         grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
     }
 }
-    /* Selector de culoare pentru variantele specificate. */
-    .product-color-selector { margin: 18px 0 16px; }
-    .product-color-selector .detail-label { display: block; margin-bottom: 10px; }
-    .product-color-options { display: flex; flex-wrap: wrap; gap: 10px; }
-    .product-color-option {
-      display: inline-flex; align-items: center; gap: 8px; padding: 9px 15px;
-      border: 1px solid #cbd5e1; border-radius: 8px; background: #fff;
-      color: #0e1d33; cursor: pointer; font: inherit;
-    }
-    .product-color-option[aria-checked="true"] { border: 2px solid #0e1d33; padding: 8px 14px; font-weight: 700; }
-    .product-color-option:focus-visible { outline: 3px solid #f47524; outline-offset: 2px; }
-    .product-color-swatch { display: inline-block; width: 18px; height: 18px; border: 1px solid #b6b6b6; border-radius: 50%; }
-    .product-color-swatch.bej { background: #dfc8ad; }
-    .product-color-swatch.negru { background: #111; }
 
 
   </style>
@@ -161,15 +147,6 @@
           <span class="detail-category">Casă &amp; Grădină</span>
           <h1>Mop Multifuncțional cu Cap Rotund din Microfibră</h1>
           <p class="detail-description"><strong>Mop multifuncțional cu cap rotund din microfibră și mâner metalic lung, conceput pentru curățarea pardoselilor și a suprafețelor compatibile.</strong></p>
-          <div class="product-color-selector" aria-label="Selectează culoarea">
-            <span class="detail-label">Culoare selectată: <strong id="selectedProductColor">Neselectată</strong></span>
-            <div class="product-color-options" role="radiogroup" aria-label="Culoare mop">
-              <button type="button" class="product-color-option" role="radio" aria-checked="false" data-color="Negru" onclick="selectProductColor(this)"><span class="product-color-swatch negru" aria-hidden="true"></span>Negru</button>
-              <button type="button" class="product-color-option" role="radio" aria-checked="false" data-color="Bej" onclick="selectProductColor(this)"><span class="product-color-swatch bej" aria-hidden="true"></span>Bej</button>
-            </div>
-            <p style="font-size:0.84rem; margin:8px 0 0; color:#64748b">Imaginile prezintă varianta cu microfibră portocalie. Confirmați disponibilitatea culorilor Negru și Bej înainte de comandă.</p>
-          </div>
-
           <div class="detail-price-row">
             <div><span class="detail-label">Preț B2B orientativ (fără TVA)</span><strong class="detail-price">9,00 Lei</strong><span class="detail-vat">(cu TVA 21%: 10,89 Lei)</span></div>
             <div><span class="detail-label">Stoc declarat</span><strong class="detail-stock">500 buc.</strong></div>
@@ -271,20 +248,6 @@
       main.alt = thumb.alt;
       document.querySelectorAll('#galleryThumbnails .gallery-thumb').forEach(item => {
         item.setAttribute('aria-pressed', String(item === button));
-      });
-    }
-    function selectProductColor(button) {
-      const color = button.dataset.color;
-      document.querySelectorAll('.product-color-option').forEach(item => {
-        item.setAttribute('aria-checked', String(item === button));
-      });
-      document.getElementById('selectedProductColor').textContent = color;
-      // Fără imagini confirmate pentru aceste două culori, galeria rămâne neschimbată.
-      const message = `Bună ziua, doresc detalii și ofertă pentru produsul: Mop Multifuncțional cu Cap Rotund din Microfibră. Culoare solicitată: ${color}.`;
-      document.querySelectorAll('a[href^="https://wa.me/40774663283?text="]').forEach(link => {
-        if (link.textContent.includes('Solicită detalii') || link.textContent.includes('Discută pe WhatsApp') || link.textContent.includes('WhatsApp euShipments')) {
-          link.href = 'https://wa.me/40774663283?text=' + encodeURIComponent(message);
-        }
       });
     }
 
