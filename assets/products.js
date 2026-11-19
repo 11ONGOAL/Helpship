@@ -1,5 +1,17 @@
 window.PRODUCTS = [
     {
+    "id": 93,
+    "slug": "set-blocuri-constructie-tip-minecraft-copii",
+    "name": "Set Blocuri de Construcție Tip Minecraft pentru Copii",
+    "description": "Set de blocuri de construcție cu texturi pixelate, pentru realizarea de peisaje și structuri creative de către copii.",
+    "price": "17 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/set-blocuri-minecraft-texturi.webp",
+    "featured": false
+  },
+    {
     "id": 92,
     "slug": "mop-multifunctional-cap-rotund-microfibra",
     "name": "Mop Multifuncțional cu Cap Rotund din Microfibră",
