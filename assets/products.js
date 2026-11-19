@@ -1,5 +1,17 @@
 window.PRODUCTS = [
         {
+    "id": 97,
+    "slug": "gel-exfoliant-facial-cu-enzime-de-portocale-100g",
+    "name": "Gel Exfoliant Facial cu Enzime de Portocale, 100 g",
+    "description": "Gel exfoliant facial cu enzime de portocale, 100 g, pentru curățare delicată și îngrijirea aspectului tenului.",
+    "price": "13 Lei",
+    "stock": "2000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/gel-exfoliant-facial-cu-enzime-de-portocale-100g-1.png",
+    "featured": false
+  },
+        {
     "id": 96,
     "slug": "papusa-zburatoare-roz",
     "name": "Păpușă Zburătoare, Roz",
