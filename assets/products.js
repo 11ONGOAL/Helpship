@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+            {
+    "id": 101,
+    "slug": "fatete-dentare",
+    "name": "Fațete dentare",
+    "description": "Kit cosmetic Snap-On Smile pentru modelare dentară, cu forme pentru ambele arcade, material de adaptare și cutie de depozitare.",
+    "price": "10 Lei",
+    "stock": "600",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/fatete-dentare-2.png",
+    "featured": false
+  },
            {
     "id": 100,
     "slug": "sampon-colorant-3in1-negru-saten-100ml",
