@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+           {
+    "id": 100,
+    "slug": "sampon-colorant-3in1-negru-saten-100ml",
+    "name": "Șampon Colorant pentru Păr 3 în 1 Negru și Șaten, 100 ml",
+    "description": "Șampon colorant EELHOE 3 în 1, 100 ml, pentru colorarea, curățarea și îngrijirea părului, disponibil în variantele Negru și Șaten.",
+    "price": "16 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/sampon-colorant-eelhoe-1.png",
+    "featured": false
+  },
           {
     "id": 99,
     "slug": "ulei-cosmetic-pentru-indepartarea-parului-nedorit-60ml",
