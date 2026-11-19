@@ -1,5 +1,17 @@
 window.PRODUCTS = [
    {
+    "id": 89,
+    "slug": "set-4-folii-protectie-aragaz",
+    "name": "Set 4 Folii de Protecție Reutilizabile pentru Aragaz pe Gaz",
+    "description": "Set de 4 folii reutilizabile pentru protejarea suprafeței aragazului pe gaz de stropii de ulei, grăsime și resturi alimentare.",
+    "price": "8,50 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/protectie-aragaz-1.png",
+    "featured": false
+  },
+   {
     "id": 88,
     "slug": "spray-pentru-dureri-dentare-si-gingivale-20ml",
     "name": "Spray pentru Dureri Dentare și Gingivale, 20 ml",
