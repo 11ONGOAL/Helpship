@@ -1165,4 +1165,16 @@ window.PRODUCTS = [
     "image": "assets/images/ascutitor-multifunctional-pentru-burghie-portabil-6cm-1.png",
     "featured": false
   },
+    {
+    "id": 106,
+    "slug": "branturi-ergonomice-incaltaminte-set-2-bucati",
+    "name": "Branțuri Ergonomice pentru Încălțăminte, Set 2 Bucăți",
+    "description": "Set de 2 branțuri ergonomice, cu suprafață texturată și orificii de ventilație, concepute pentru confort în timpul mersului și al statului în picioare.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/branturi-ergonomice-incaltaminte-set-2-bucati-5.png",
+    "featured": false
+  },
 ];
