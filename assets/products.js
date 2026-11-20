@@ -1152,4 +1152,17 @@ window.PRODUCTS = [
     "image": "assets/images/dfghf.png",
     "featured": false
   },
+    
+        {
+    "id": 105,
+    "slug": "ascutitor-multifunctional-burghie-6cm",
+    "name": "Ascuțitor Multifuncțional pentru Burghie, Portabil, 6 cm",
+    "description": "Ascuțitor portabil de aproximativ 6 cm, cu sistem abraziv și trei adaptoare de ghidare, conceput pentru reascuțirea burghielor compatibile.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/ascutitor-multifunctional-pentru-burghie-portabil-6cm-1.png",
+    "featured": false
+  },
 ];
