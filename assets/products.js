@@ -1201,4 +1201,16 @@ window.PRODUCTS = [
     "image": "assets/images/orteza-compresiva-sold-coapsa-unisex-albastru-1.jpg",
     "featured": false
   },
+       {
+    "id": 110,
+    "slug": "set-6-reductoare-debit-dus-adaptor-alama-cromata-127-cm",
+    "name": "Set 6 Reductoare de Debit pentru Duș, cu Adaptor din Alamă Cromată 1,27 cm",
+    "description": "Set cu 6 reductoare de debit pentru duș și adaptor din alamă cromată cu racord de 1/2 inch, cu inserții interschimbabile pentru limitarea consumului de apă.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/set-6-reductoare-debit-dus-adaptor-alama-cromata-127-cm-4.png",
+    "featured": false
+  },
 ];
