@@ -1215,7 +1215,7 @@ window.PRODUCTS = [
   },
      {
     "id": 111,
-    "slug": "products/banda-sustinere-rotula-pentru-genunchi-gri-din-codul-actualizat.html",
+    "slug": "banda-sustinere-rotula-pentru-genunchi-gri-din-codul-actualizat",
     "name": "Bandă de Susținere Rotulă pentru Genunchi, Gri",
     "description": "Bandă de susținere rotulă pentru genunchi, cu suport anatomic din silicon și curea reglabilă, pentru compresie localizată în timpul activităților sportive.",
     "price": "0 Lei",
