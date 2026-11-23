@@ -107,18 +107,6 @@ window.PRODUCTS = [
     "image": "assets/images/papusa-zburatoare-roz-1.jpg",
     "featured": false
   },
-        {
-    "id": 95,
-    "slug": "ser-curatare-pete-lacrimale-caini-pisici-30ml",
-    "name": "Ser pentru Curățarea Petelor Lacrimale la Câini și Pisici 30 ml",
-    "description": "Ser pentru îngrijirea zonei perioculare la câini și pisici, destinat curățării petelor lacrimale, 30 ml.",
-    "price": "12 Lei",
-    "stock": "1000",
-    "video": "",
-    "category": "Animale",
-    "image": "assets/images/ser-curatare-pete-lacrimale-caini-pisici-30ml-2.png",
-    "featured": false
-  },
       {
     "id": 94,
     "slug": "balsam-stick-pentru-zona-ochilor-9g",
