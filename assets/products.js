@@ -1225,4 +1225,16 @@ window.PRODUCTS = [
     "image": "assets/images/banda-sustinere-rotula-pentru-genunchi-gri-4.jpg",
     "featured": false
   },
+    {
+    "id": 112,
+    "slug": "centura-sustinere-pentru-bazin-si-solduri",
+    "name": "Centură de Susținere pentru Bazin și Șolduri",
+    "description": "Centură reglabilă de susținere pentru bazin și șolduri, cu benzi elastice pentru compresie pelviană ajustabilă, destinată activităților cotidiene.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/centura-sustinere-pentru-bazin-si-solduri-1.png",
+    "featured": false
+  },
 ];
