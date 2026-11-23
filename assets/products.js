@@ -1189,4 +1189,16 @@ window.PRODUCTS = [
     "image": "assets/images/set-2-ciorapi-compresivi-medicali-femei-bej-1.png",
     "featured": false
   },
+    {
+    "id": 109,
+    "slug": "orteza-compresiva-sold-coapsa-unisex-albastru",
+    "name": "Orteză Compresivă pentru Șold și Coapsă, Unisex, Albastru",
+    "description": "Orteză compresivă NEO G pentru șold, zona inghinală și coapsă, unisex, albastru, cu neopren flexibil și benzi reglabile.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/orteza-compresiva-sold-coapsa-unisex-albastru-1.jpg",
+    "featured": false
+  },
 ];
