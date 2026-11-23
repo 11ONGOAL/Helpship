@@ -1177,4 +1177,16 @@ window.PRODUCTS = [
     "image": "assets/images/set-6-lavete-curatare-microfibra-extra-groasa-1.png",
     "featured": false
   },
+    {
+    "id": 108,
+    "slug": "set-2-ciorapi-compresivi-medicali-femei-bej",
+    "name": "Set 2 Ciorapi Compresivi Medicali pentru Femei, Bej",
+    "description": "Set de 2 ciorapi compresivi pentru femei, bej, cu compresie graduală 15–20 mmHg, lungime până la coapsă și vârf deschis.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/set-2-ciorapi-compresivi-medicali-femei-bej-1.png",
+    "featured": false
+  },
 ];
