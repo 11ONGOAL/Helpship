@@ -1285,4 +1285,16 @@ window.PRODUCTS = [
     "image": "assets/images/cotiera-auto-universala-consola-centrala-4.png",
     "featured": false
   },
+    {
+    "id": 117,
+    "slug": "covoras-decorativ-pentru-bradul-de-craciun",
+    "name": "Covoraș Decorativ pentru Bradul de Crăciun",
+    "description": "Covoraș decorativ pentru bradul de Crăciun, din blană artificială albă, 50 × 50 cm, cu textură pufoasă și efect vizual de zăpadă.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/covoras-decorativ-pentru-bradul-de-craciun-1.png",
+    "featured": false
+  },
 ];
