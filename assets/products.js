@@ -5,7 +5,7 @@ window.PRODUCTS = [
     "name": "Proiector LED de Crăciun cu Alimentare USB",
     "description": "Proiector LED decorativ de Crăciun, cu alimentare USB și formă de brad împodobit, pentru proiecții festive pe pereți și tavane.",
     "price": "29 Lei",
-    "stock": "500",
+    "stock": "3000",
     "video": "",
     "category": "Casă și grădină",
     "image": "assets/images/proiector-led-craciun-usb-1.png",
