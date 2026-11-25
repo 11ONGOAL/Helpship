@@ -1408,13 +1408,25 @@ window.PRODUCTS = [
      {
     "id": 127,
     "slug": "pensula-machiaj-curbata-cu-etui",
-    "name": "Pensulă de Machiaj Curbată, cu Peri Deși și Etui ",
+    "name": "Pensulă de Machiaj Curbată, cu Peri Deși și Etui",
     "description": "Pensulă compactă pentru aplicarea și uniformizarea produselor de machiaj, cu design curbat și etui de protecție.",
     "price": "0 Lei",
     "stock": "0",
     "video": "",
     "category": "Casă și grădină",
     "image": "assets/images/pensula-machiaj-curbata-cu-etui-1.webp",
+    "featured": false
+  },
+     {
+    "id": 128,
+    "slug": "puzzle-3d-animale-diy-copii",
+    "name": "Puzzle 3D DIY pentru Copii, Figurine cu Animale",
+    "description": "Activitate creativă de asamblare a figurinelor tridimensionale cu animale, din piese ilustrate.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/puzzle-3d-animale-diy-copii-1.webp",
     "featured": false
   },
 ];
