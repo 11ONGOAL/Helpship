@@ -1309,4 +1309,16 @@ window.PRODUCTS = [
     "image": "assets/images/instalatie-luminoasa-led-tip-perdea-pentru-fereastra-4.png",
     "featured": false
   },
+    {
+    "id": 119,
+    "slug": "prosop-pentru-uscarea-parului-din-microfibra",
+    "name": "Prosop pentru Uscarea Părului din Microfibră",
+    "description": "Prosop din microfibră pentru absorbția excesului de apă după spălarea părului, cu material moale și textură delicată, pentru utilizare zilnică.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/prosop-pentru-uscarea-parului-din-microfibra-2.png",
+    "featured": false
+  },
 ];
