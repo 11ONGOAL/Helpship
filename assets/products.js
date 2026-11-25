@@ -1321,4 +1321,16 @@ window.PRODUCTS = [
     "image": "assets/images/prosop-pentru-uscarea-parului-din-microfibra-2.png",
     "featured": false
   },
+    {
+    "id": 120,
+    "slug": "patura-pufoasa-fosforescenta-pentru-copii-cu-unicorni",
+    "name": "Pătură Pufoasă Fosforescentă pentru Copii cu Unicorni",
+    "description": "Pătură moale și pufoasă, cu imprimeu multicolor de unicorni și stele fosforescente, pentru decor și relaxare.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/patura-pufoasa-fosforescenta-pentru-copii-cu-unicorni-2.png",
+    "featured": false
+  },
 ];
