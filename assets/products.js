@@ -1381,4 +1381,16 @@ window.PRODUCTS = [
     "image": "assets/images/bariera-siliconica-pentru-dus-3.webp",
     "featured": false
   },
+     {
+    "id": 125,
+    "slug": "cablu-usb-a-usb-c-65w-cu-suport",
+    "name": "Cablu USB-A la USB-C, 65W Declarat, cu Suport Pliabil ",
+    "description": "Cablu de încărcare USB-A la USB-C, cu conector prevăzut cu suport pliabil pentru telefon și putere de 65W indicată pe ambalaj.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/cablu-usb-a-usb-c-65w-cu-suport-1.webp",
+    "featured": false
+  },
 ];
