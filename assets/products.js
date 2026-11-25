@@ -1297,4 +1297,16 @@ window.PRODUCTS = [
     "image": "assets/images/covoras-decorativ-pentru-bradul-de-craciun-1.png",
     "featured": false
   },
+      {
+    "id": 118,
+    "slug": "instalatie-luminoasa-led-tip-perdea-pentru-fereastra",
+    "name": "Instalație Luminoasă LED Tip Perdea pentru Fereastră",
+    "description": "Instalație luminoasă LED tip perdea, cu șiruri suspendate și lumină alb cald, telecomandă și alimentare prin USB, pentru decorarea ferestrelor și a spațiilor interioare.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/instalatie-luminoasa-led-tip-perdea-pentru-fereastra-4.png",
+    "featured": false
+  },
 ];
