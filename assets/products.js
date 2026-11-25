@@ -1369,4 +1369,16 @@ window.PRODUCTS = [
     "image": "assets/images/hf_20260904_150509_9f71d539-ce30-4c18-a529-3bfb8a5f3b46.webp",
     "featured": false
   },
+     {
+    "id": 124,
+    "slug": "bariera-siliconica-pentru-dus",
+    "name": "Barieră Flexibilă din Silicon pentru Duș, Autoadezivă ",
+    "description": "Limitează scurgerea apei în afara zonei de duș cu o barieră flexibilă din silicon, cu bază autoadezivă.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/bariera-siliconica-pentru-dus-3.webp",
+    "featured": false
+  },
 ];
