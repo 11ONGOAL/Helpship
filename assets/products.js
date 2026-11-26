@@ -1429,4 +1429,16 @@ window.PRODUCTS = [
     "image": "assets/images/puzzle-3d-animale-diy-copii-1.webp",
     "featured": false
   },
+     {
+    "id": 129,
+    "slug": "crema-depilatoare-zencolor-cu-racleta",
+    "name": "Cremă Depilatoare pentru Corp, cu Racletă Inclusă",
+    "description": "Crema depilatoare Zencolor, cu racletă pentru îndepărtarea părului corporal, este un produs cosmetic destinat eliminării părului nedorit de la suprafața pielii, oferind o alternativă la metodele mecanice tradiționale de epilare.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/crema-depilatoare-zencolor-5.png",
+    "featured": false
+  },
 ];
