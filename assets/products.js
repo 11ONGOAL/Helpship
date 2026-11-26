@@ -1,5 +1,4 @@
 window.PRODUCTS = [
-    
         {
     "id": 105,
     "slug": "ascutitor-multifunctional-burghie-6cm",
