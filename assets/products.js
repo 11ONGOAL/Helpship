@@ -1440,4 +1440,16 @@ window.PRODUCTS = [
     "image": "assets/images/dfghf.png",
     "featured": false
   },
+        {
+    "id": 130,
+    "slug": "mini-polizor-electric-multifunctional-60w",
+    "name": "Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W",
+    "description": "Mini polizorul electric multifuncțional pentru ascuțirea cuțitelor și șlefuirea uneltelor este un dispozitiv compact, conceput pentru întreținerea, ascuțirea și finisarea diferitelor obiecte metalice.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/mini-polizor-electric-multifunctional-60w-2.png",
+    "featured": false
+  },
 ];
