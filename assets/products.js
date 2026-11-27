@@ -1452,4 +1452,16 @@ window.PRODUCTS = [
     "image": "assets/images/mini-polizor-electric-multifunctional-60w-2.png",
     "featured": false
   },
+        {
+    "id": 131,
+    "slug": "products/proiector-rotativ-stele-luna-star-master",
+    "name": "Proiector Rotativ de Stele și Lună, Albastru, Mov sau Roz",
+    "description": "Proiectorul rotativ de stele și lună Star Master este un dispozitiv de iluminat decorativ, conceput pentru a crea efecte vizuale inspirate din cerul nocturn.",
+    "price": "0 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/proiector-rotativ-stele-luna-star-master-ambalaj.png",
+    "featured": false
+  },
 ];
